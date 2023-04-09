@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Course_page_logo1">
+    <file>coursepage_logo_1.png</file>
+  </qresource>
+</RCC>

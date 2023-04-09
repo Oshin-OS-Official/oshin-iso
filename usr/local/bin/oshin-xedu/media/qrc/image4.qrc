@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="media">
+    <file>Kavach_logo.jpg</file>
+  </qresource>
+</RCC>

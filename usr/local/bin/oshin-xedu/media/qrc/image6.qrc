@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="media">
+    <file>studyblu_logo.png</file>
+  </qresource>
+</RCC>

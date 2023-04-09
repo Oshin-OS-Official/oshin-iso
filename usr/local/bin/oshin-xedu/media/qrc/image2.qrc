@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="media">
+    <file>(Landing+Quiz)Mascot.svg</file>
+  </qresource>
+</RCC>

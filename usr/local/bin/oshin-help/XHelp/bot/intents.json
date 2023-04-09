@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello ",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","good night"],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Most welcome"]
+    },
+    {
+      "tag": "report",
+      "patterns": [
+        "I Want to report",
+        "report",
+        "help",
+        "I am facing issue.",
+        "Cyber bullying",
+        "Harassment.",
+        "Creepy message",
+        "bullying",
+        "Disturbing.",
+        "Troubling"
+      ],
+      "responses": [
+        "Please go ahead and give more details.",
+        "Tell us your issue. We will surely help.",
+        "Could you please share some more information regarding it"
+      ]
+    },
+    {
+      "tag": "bullying",
+      "patterns": [
+      "Violent Behavior.",
+      "received abusive texts",
+      "got abusive texts",
+      "Abusive",
+      "Hateful.",
+      "Foul language.",
+      "Bad words."
+      ],
+      "responses": [
+        "1) Please inform your parents.\n2) Stop responding to such texts or emails.\n3) Avoid or ignore as much as possible.\n4) If possible, please block the source.\nIf you can please describe more about the incident.\nAlso try to provide us with some evidence.\n You can also attach with links or mention the apps or websites."
+      ]
+    },
+    {
+      "tag": "Spam",
+      "patterns": [
+        "I have been spamming.",
+        "Spamming"
+      ],
+      "responses": [
+        "Please specify which of one these: SPAM ADS OR SPAMS TEXTS OR SPAM EMAILS "
+      ]
+    },
+    {
+      "tag": "spam2",
+      "patterns": [
+        "Spam ads.",
+        "ads",
+        "Advertisement"
+      ],
+      "responses": [
+        "1) Please do not visit spamming websites.\n2) If possible enable Ad block.\n3)Also block the notifications of alike websites.\nIf you can please describe more about the incident.\nAlso try to provide us with some evidence.\nYou can also attach with links or mention the apps or websites." 
+      ]
+    },
+    {
+      "tag": "Endmessage",
+      "patterns": [
+        "ok",
+        "yes",
+        "done",
+        "surely",
+        "link",
+        "instagram",
+        "whatsapp",
+        "facebbook",
+        "evidence",
+        ".com","google",
+        "website"
+      ],
+      "responses":[
+        "noting it down. your report will be submitted."]
+      
+    },
+    {
+      "tag": "spam3",
+      "patterns": [
+        "Spam texts.",
+        "messages",
+        "Dms "
+      ],
+      "responses": [
+        "1) Report it on the messaging app you use.\n2) Look for the option to report junk or spam.\n3) Otherwise you can Copy the message and forward it to 7726 (SPAM).\n4) If still it goes on then you can directly Report it to the Federal Trade Commission at ReportFraud.ftc.gov.\nIf you can please describe more about the incident.\nAlso try to provide us with some evidence\nYou can also attach with links or mention the apps or websites." 
+      ]
+    },
+    {
+      "tag": "Actions.",
+      "patterns": [
+        "Block",
+        "more help",
+        "take action",
+        "do something"
+      ],
+      "responses": [
+        "we will do our best to look up on this matter and help you.",
+        "Necessary actions will be taken as soon as possible. Worry not"
+      ]
+    },
+    {
+      "tag": "Endmessage",
+      "patterns": [
+        "ok",
+        "yes",
+        "done",
+        "surely",
+        "link",
+        "instagram",
+        "whatsapp",
+        "facebbook",
+        "evidence",
+        ".com","google",
+        "website"
+      ],
+      "responses":[
+        "noting it down. your report will be submitted."]
+      
+    }
+  ]
+}

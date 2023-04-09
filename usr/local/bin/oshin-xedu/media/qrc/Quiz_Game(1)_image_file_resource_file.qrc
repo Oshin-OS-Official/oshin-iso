@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Quiz_Game(1)_image_qrc_file">
+    <file>InteractiveGame.svg</file>
+  </qresource>
+</RCC>

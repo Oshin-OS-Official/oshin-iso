@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Oshin StudyBlu
+Exec=python3 /usr/local/bin/oshin-xedu/main.py
+Icon=oshin

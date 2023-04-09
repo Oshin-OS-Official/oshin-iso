@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>MainWindow</class>
+  <widget class="QMainWindow" name="MainWindow">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1033</width>
+        <height>633</height>
+      </rect>
+    </property>
+    <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+      </sizepolicy>
+    </property>
+    <property name="windowTitle">
+      <string>MainWindow</string>
+    </property>
+    <property name="styleSheet">
+      <string notr="true">border-radius:20px;
+border:None;
+background-color:rgb(255,255,255);</string>
+    </property>
+    <property name="documentMode">
+      <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="centralwidget">
+      <layout class="QGridLayout" name="gridLayout_2">
+        <property name="spacing">
+          <number>0</number>
+        </property>
+        <item row="0" column="1">
+          <widget class="QScrollArea" name="MAINContent">
+            <property name="sizePolicy">
+              <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+              </sizepolicy>
+            </property>
+            <property name="styleSheet">
+              <string notr="true">color: #000000;
+background-color: #FFFFFF;</string>
+            </property>
+            <property name="widgetResizable">
+              <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+                <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>915</width>
+                  <height>615</height>
+                </rect>
+              </property>
+              <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                  <spacer name="verticalSpacer_7">
+                    <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                      <enum>QSizePolicy::Maximum</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                      <size>
+                        <width>20</width>
+                        <height>20</height>
+                      </size>
+                    </property>
+                  </spacer>
+                </item>
+                <item>
+                  <widget class="QScrollArea" name="scrollArea">
+                    <property name="sizePolicy">
+                      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                      </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                      <string notr="true">border:none;</string>
+                    </property>
+                    <property name="widgetResizable">
+                      <bool>true</bool>
+                    </property>
+                    <property name="alignment">
+                      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                    </property>
+                    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+                      <property name="geometry">
+                        <rect>
+                          <x>0</x>
+                          <y>0</y>
+                          <width>897</width>
+                          <height>571</height>
+                        </rect>
+                      </property>
+                      <property name="sizePolicy">
+                        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                        </sizepolicy>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_2">
+                        <item>
+                          <widget class="QLabel" name="Para1">
+                            <property name="sizePolicy">
+                              <sizepolicy hsizetype="Ignored" vsizetype="MinimumExpanding">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                              </sizepolicy>
+                            </property>
+                            <property name="font">
+                              <font>
+                                <pointsize>12</pointsize>
+                                <bold>false</bold>
+                              </font>
+                            </property>
+                            <property name="styleSheet">
+                              <string notr="true">color: rgb(93, 93, 93);</string>
+                            </property>
+                            <property name="text">
+                              <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dignissim ipsum. Vestibulum sed condimentum leo. Vestibulum tristique non velit at semper. Nunc rhoncus dictum nisi, id pulvinar lorem rutrum at. Nullam ac accumsan metus. Praesent consectetur ex sapien, a pulvinar felis suscipit nec. Mauris ultrices hendrerit urna et tempus. In at magna felis. Sed ut aliquam ex. Proin id ultrices nulla, ut rutrum nulla. Nulla dapibus, nisl nec suscipit tristique, orci lectus eleifend lacus, ac feugiat enim lacus sit amet arcu. Vestibulum vel leo lorem. Nulla luctus, felis non lobortis aliquam, nisl tortor eleifend risus, non vehicula ligula nisl vel nulla.
+
+                              </string>
+                            </property>
+                            <property name="alignment">
+                              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                            </property>
+                            <property name="wordWrap">
+                              <bool>true</bool>
+                            </property>
+                          </widget>
+                        </item>
+                      </layout>
+                    </widget>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+          </widget>
+        </item>
+        <item row="0" column="0">
+          <widget class="QScrollArea" name="ContentTable">
+            <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="MinimumExpanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+              </sizepolicy>
+            </property>
+            <property name="styleSheet">
+              <string notr="true">background-color : #4c74d4;
+border-radius:15px;</string>
+            </property>
+            <property name="widgetResizable">
+              <bool>true</bool>
+            </property>
+            <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_3">
+              <property name="geometry">
+                <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>100</width>
+                  <height>58</height>
+                </rect>
+              </property>
+              <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                </sizepolicy>
+              </property>
+              <layout class="QGridLayout" name="gridLayout">
+                <property name="sizeConstraint">
+                  <enum>QLayout::SetDefaultConstraint</enum>
+                </property>
+                <item row="0" column="0" alignment="Qt::AlignLeft">
+                  <widget class="QPushButton" name="pushButton">
+                    <property name="minimumSize">
+                      <size>
+                        <width>0</width>
+                        <height>40</height>
+                      </size>
+                    </property>
+                    <property name="styleSheet">
+                      <string notr="true">QPushButton
+{
+border: 2px solid ;
+background-color: rgb(17,36,68);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: bold;
+border-radius: 8px
+}
+
+QPushButton:hover{
+	background-color: rgb(114, 214, 249);
+	color:rgb(17, 36, 68);	
+	border-color: rgb(17, 36, 68);
+}
+QPushButton:pressed{	
+	background-color:rgb(255, 255, 255);		
+	color: rgb(17, 36, 68);
+}</string>
+                    </property>
+                    <property name="text">
+                      <string>   Back   </string>
+                    </property>
+                  </widget>
+                </item>
+              </layout>
+            </widget>
+          </widget>
+        </item>
+      </layout>
+    </widget>
+  </widget>
+  <resources/>
+  <connections/>
+</ui>

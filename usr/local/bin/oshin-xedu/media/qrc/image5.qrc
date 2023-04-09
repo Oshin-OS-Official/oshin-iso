@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="media">
+    <file>Secure_Circle.png</file>
+  </qresource>
+</RCC>
