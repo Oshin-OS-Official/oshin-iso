@@ -1,0 +1,2 @@
+/etc/locale.conf: line 7: warning: setlocale: LC_NUMERIC: cannot change locale (en_IN): No such file or directory
+/etc/locale.conf: line 10: warning: setlocale: LC_TIME: cannot change locale (en_IN): No such file or directory

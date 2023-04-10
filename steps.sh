@@ -128,7 +128,7 @@ cp -r syslinux ./ezreleng/
 cp -r etc ./ezreleng/airootfs/
 cp -r opt ./ezreleng/airootfs/
 cp -r usr ./ezreleng/airootfs/
-ln -sf /usr/share/ezarcher ./ezreleng/airootfs/etc/skel/ezarcher
+#ln -sf /usr/share/ezarcher ./ezreleng/airootfs/etc/skel/ezarcher
 }
 
 # Set hostname

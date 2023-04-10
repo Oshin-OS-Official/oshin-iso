@@ -1,0 +1,1 @@
+requirejs.config({baseUrl:"/",waitSeconds:60}),define(["core/Logger","core/CoreAPI"],(Logger,API)=>(async()=>{await API.Storage.initAsync(),API.StayFocusd.localizeHTML(document);var installId=await API.Storage.getAsync("install-id");document.getElementById("installIdDisplay").textContent=installId})());

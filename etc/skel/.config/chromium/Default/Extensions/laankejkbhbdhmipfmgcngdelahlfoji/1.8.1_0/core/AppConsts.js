@@ -1,0 +1,1 @@
+define(()=>{return{APP_ID:"laankejkbhbdhmipfmgcngdelahlfoji",INSTALL_ID_KEY:"install-id"}});

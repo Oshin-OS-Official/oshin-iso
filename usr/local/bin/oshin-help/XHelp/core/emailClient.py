@@ -14,7 +14,7 @@ import smtplib
 import ssl
 import XHelp as App
 
-with open(f'{os.path.expanduser("~")}/.local/share/xhelp/login.json') as f:
+with open(f'{os.path.expanduser("~")}/.local/share/oshin-help/login.json') as f:
     cred = json.load(f)
     receiver_email_ = cred['receiver_email']
     sender_email_ = cred['sender_email']

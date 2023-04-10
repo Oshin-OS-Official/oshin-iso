@@ -1,0 +1,5 @@
+[PlasmaRunnerManager]
+LaunchCounts=11 exec:///usr/bin/konsole,1 exec:///usr/bin/chromium,1 krunner_systemsettings_kcm_kscreen,1 exec:///usr/lib/firefox/firefox,9 exec:///usr/bin/systemsettings,1 exec:///usr/bin/plasma-discover
+
+[PlasmaRunnerManager][History]
+1127b4ea-7e65-4576-9c9a-24666941a70b=firef,fire,chro,setting,kon,konsol,settin,kons,sett,setti,konso,set,konsole,discov,displa

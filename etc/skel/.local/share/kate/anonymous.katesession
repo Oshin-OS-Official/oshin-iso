@@ -1,0 +1,199 @@
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+URL=file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+cuttlefishplugin=false
+externaltoolsplugin=true
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=true
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+rainbowparens=false
+tabswitcherplugin=true
+textfilterplugin=true
+
+[MainWindow0]
+1920x1080 screen: Height=748
+1920x1080 screen: Width=1405
+1920x1080 screen: XPosition=384
+1920x1080 screen: YPosition=221
+Active ViewSpace=0
+Kate-MDI-H-Splitter=0,1361,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,kate_private_plugin_katefileselectorplugin,lspclient_symbol_outline
+Kate-MDI-Sidebar-0-LastSize=200
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=642
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=642
+Kate-MDI-Sidebar-2-Bar-0-TvList=
+Kate-MDI-Sidebar-2-LastSize=200
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=1361
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin,kate_lspclient
+Kate-MDI-Sidebar-3-LastSize=200
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=1040
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_lspclient-Position=3
+Kate-MDI-ToolView-kate_lspclient-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_lspclient-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=0,642,0
+State=AAAA/wAAAAD9AAAAAAAABX0AAAKgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHx/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Virtual1=Virtual1
+
+[MainWindow0 Settings]
+1920x1080 screen: Height=748
+1920x1080 screen: Width=1405
+1920x1080 screen: XPosition=384
+1920x1080 screen: YPosition=221
+State=AAAA/wAAAAD9AAAAAAAABX0AAAKgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABoAGEAbQBiAHUAcgBnAGUAcgBCAGEAcgEAAAHx/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Virtual1=Virtual1
+WindowState=8
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=1361
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop
+Count=1
+Documents=file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop
+View 0=file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop
+
+[MainWindow0-ViewSpace 0 file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop]
+CursorColumn=24
+CursorLine=19
+Dynamic Word Wrap=true
+JumpList=
+TextFolding={"checksum":"f7a9590fb1337c75deddca0c918ac8abd83c683f","ranges":[]}
+ViMarks=
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:katefilebrowserplugin:MainWindow:0]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+View Style=DetailTree
+auto sync folder=true
+filter history=
+highlight current file=true
+location=file:///home/prharsha/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=$HOME/KDE-20230324/efiboot/loader/entries/01-archiso-x86_64-linux.conf
+File10[$e]=$HOME/.local/share/plasma/look-and-feel/com.github.yeyushengfan258.ArcAurora-dark/metadata.desktop
+File2[$e]=$HOME/Oshin/KDE-20230324/efiboot/loader/entries/02-archiso-x86_64-speech-linux.conf
+File3[$e]=$HOME/KDE-20230324/efiboot/loader/entries/02-archiso-x86_64-speech-linux.conf
+File4[$e]=$HOME/KDE-20230324/etc/calamares/branding/ezarcher/branding.desc
+File5[$e]=$HOME/Oshin/KDE-20230324/etc/calamares/settings.conf
+File6[$e]=$HOME/KDE-20230324/etc/default/grub
+File7[$e]=$HOME/Oshin/KDE-20230324/grub/grub.cfg
+File8[$e]=$HOME/KDE-20230324/grub/grub.cfg
+File9[$e]=$HOME/KDE-20230324/steps.sh
+Name1[$e]=01-archiso-x86_64-linux.conf
+Name10[$e]=metadata.desktop
+Name2[$e]=02-archiso-x86_64-speech-linux.conf
+Name3[$e]=02-archiso-x86_64-speech-linux.conf
+Name4[$e]=branding.desc
+Name5[$e]=settings.conf
+Name6[$e]=grub
+Name7[$e]=grub.cfg
+Name8[$e]=grub.cfg
+Name9[$e]=steps.sh

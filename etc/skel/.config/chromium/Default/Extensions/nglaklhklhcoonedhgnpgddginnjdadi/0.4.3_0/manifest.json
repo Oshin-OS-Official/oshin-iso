@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "out/app.js" ]
+   },
+   "browser_action": {
+      "default_icon": "media/logo/logo-128.png",
+      "default_popup": "static/popup.html"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "{ef87d84c-2127-493f-b952-5b4e744245bc}"
+      }
+   },
+   "description": "Log the current tab and your browser activity with ActivityWatch.",
+   "icons": {
+      "128": "media/logo/logo-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvXL8aewYb9SqcN84b8Ptw7BiSTPppTzsk/vrk6yzvuRITaU3O3nSNCWKLPVIMYk5Zz3MyXHmVFqFtfyM6CvwS+bCqR7iXMt+anFbqaW7y5yhzkxUN0IVGLCK5KJMPmCJ64rN8C4oG7FaeBQOKQX4VHCexWcBKfR2nUdV1czXJ3CrKuigD/6uEgvuXf2sKlvrPuaZqgjSmWQiPKjycmZrDuS1lxB9ThvPct3bOKNCikjnrCrvF6p86f6/q7p6ZitmGGZI/4qcRN9/3xC/pV0Ix8CTCwHUXyGaTlKvb9VFipj4x5DLacZB/JfWSJgxaerkGuLFD796oPITrbTqtif6PQIDAQAB",
+   "manifest_version": 2,
+   "name": "ActivityWatch Web Watcher",
+   "permissions": [ "tabs", "alarms", "notifications", "activeTab", "storage", "http://localhost:5600/api/*", "http://localhost:5666/api/*" ],
+   "short_name": "ActivityWatch",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.3"
+}

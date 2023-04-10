@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=settings.conf
+Type=Link
+URL[$e]=file:$HOME/Oshin/KDE-20230324/etc/calamares/settings.conf
+X-KDE-LastOpenedWith=org.kde.kate

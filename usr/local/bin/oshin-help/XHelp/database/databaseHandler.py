@@ -17,6 +17,7 @@ class DatabaseHandler:
    cursor = None
    
    def start ():
+      print(App.Configuration.DB_PATH)
       DatabaseHandler.connection = sqlite3.connect(
          App.Configuration.DB_PATH,
          check_same_thread=False,

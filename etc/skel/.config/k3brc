@@ -1,0 +1,79 @@
+[Devices]
+NECVMWar VMware IDE CDR10=176,0
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.5
+cdrdao user parameters=
+cdrecord default=/usr/bin/cdrecord
+cdrecord last seen newest version=3.2a09
+cdrecord user parameters=
+cdrskin default=/usr/bin/cdrskin
+cdrskin last seen newest version=1.5.4
+cdrskin user parameters=
+dvd+rw-format default=/usr/bin/dvd+rw-format
+dvd+rw-format last seen newest version=7.1
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs default=/usr/bin/growisofs
+growisofs last seen newest version=7.1
+growisofs user parameters=
+mkisofs default=/usr/bin/mkisofs
+mkisofs last seen newest version=3.2a09
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readcd
+readcd last seen newest version=3.2a09
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox default=/usr/bin/sox
+sox last seen newest version=14.4.2
+sox user parameters=
+transcode default=/usr/bin/transcode
+transcode last seen newest version=1.1.7
+transcode user parameters=
+vcdxbuild user parameters=
+vcdxminfo user parameters=
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=22.12.3
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/home/final/Videos
+burnfree=true
+check system config=true
+config version=22.12.3
+current theme=quant
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+View Style=DetailTree
+last url[$e]=$HOME/
+show bookmarks=false
+
+[main_window_settings]
+1920x1080 screen: Height=542
+1920x1080 screen: Width=640
+1920x1080 screen: XPosition=640
+1920x1080 screen: YPosition=276
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Virtual1=Virtual1

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="107">
+  <name>ArcAurora Cursors</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1665694</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>58</rating>
+  <downloads>17508</downloads>
+  <installedfile>/home/prharsha/.icons/ArcAurora-cursors/*</installedfile>
+  <id>1665694</id>
+  <releasedate>2021-12-15</releasedate>
+  <summary>ArcAurora cursors for linux desktops</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/90/1665694/logo-1.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/90/1665694/logo-1.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Mzk1ODU2MjgiLCJvIjoiMSIsInMiOiIzYjgxYTVjYmMxNjNmMTFjNjdmZjRjZGM2MjYwNDhlNmNiMDczY2I4NTA2NjZhOTM1N2M3ZTQ1OTM1NGU3NThlNmQ1OTE0MjQwNmUyMjk3MWQwODQ3M2U1OThjNWFmZTNjYTMyOGU3OGQwYTQzNGJmMDc4NzIxMjk3Y2I1NmRjZSIsInQiOjE2ODA5NzYyMzAsInN0ZnAiOm51bGwsInN0aXAiOiIxMTEuOTMuNzQuMTU4In0.wwngZ2ACV2aTvmAgWo-58LiesX5S1Fvjup20Exj6BpE/ArcAurora-cursors.zip</payload>
+  <tags>gplv3,linux,unix,cursor,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="107">
+  <name>WinSur-dark-cursors</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1423341</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>67</rating>
+  <downloads>58490</downloads>
+  <installedfile>/home/prharsha/.icons/WinSur-dark-cursors/*</installedfile>
+  <id>1423341</id>
+  <releasedate>2020-09-18</releasedate>
+  <summary>WinSur-dark-cursors for linux desktops</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/90/1423341/ae6fde48b2704f184085e2329f812323be86d0bcbd51da92d6417f9b0e8592c76c3d.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/90/1423341/ae6fde48b2704f184085e2329f812323be86d0bcbd51da92d6417f9b0e8592c76c3d.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDA0MzUxNzkiLCJvIjoiMSIsInMiOiJiZGQ1Njk0ZGRlMTc3N2MwZDBlMWRjZTgzMzRhZjZjNzFjNTM0ZTU4ZGExOThjMmZmZDM1MDhiNDk4OGQ5ZmVjOGU1Mjg5OWJkMzE2NDA1N2I2MTVkYzRkMWU4ODRhOTMzOGIyZDU3ZDI3MjBiMGQ2Y2NhOTNkMzc2NzY1OTgyYiIsInQiOjE2ODA5NzY0NzYsInN0ZnAiOm51bGwsInN0aXAiOiIxODIuNzIuMzkuMTAifQ.v-aSyQ_6scfcJQQCxCoqYMaXyUseU5HZiKvLNu3LwtY/WinSur-dark-cursors.tar.gz</payload>
+  <tags>cursor,unix,original-product,gplv3,linux</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

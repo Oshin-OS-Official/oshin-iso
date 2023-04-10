@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Welcome Oshin OS
+Exec=python3 /usr/bin/oshin-welcome
+Icon=/usr/share/oshin-welcome/img/oshin-welcome.png
+Terminal=false
+StartupNotify=true

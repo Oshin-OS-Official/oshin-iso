@@ -1,0 +1,1 @@
+"object"==typeof chrome.runtime&&(chrome.runtime.onInstalled.addListener(function(details){window.onInstalledDetails=details}),chrome.runtime.onStartup.addListener(()=>{window.onStartupDetails={}}));

@@ -1,0 +1,42 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/limit_icon_128.png",
+         "16": "images/limit_icon_16.png",
+         "19": "images/limit_icon_19.png",
+         "32": "images/limit_icon_32.png",
+         "38": "images/limit_icon_76.png",
+         "48": "images/limit_icon_48.png"
+      },
+      "default_popup": "html/menu.html",
+      "default_title": "Limit is enabled."
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "/js/content_script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Limit your time spent on distracting sites. Limit is an extension that allows you to set time limits for distracting websites.",
+   "icons": {
+      "128": "images/limit_icon_128.png",
+      "16": "images/limit_icon_16.png",
+      "19": "images/limit_icon_19.png",
+      "32": "images/limit_icon_32.png",
+      "38": "images/limit_icon_76.png",
+      "48": "images/limit_icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkzMINQh0SWY4ns5fy4bPT6TASbM6qWUHOz60EkB2emdQ7c/SKHakKcl+EAWIDH9RLi3VQxKxK7P/vtpmAyGRad7LrUItWWW0+hpUQnkXbBIby442stRZTbpmGmBRfKTvHwSJxrB1zIVUINtIwFKPWrlb/FxaYMMrvinN6GohVcOPnvBXlqiOfUUlmv2yUG/qcv01BcSx0vA7sN7fYUuo4E0axau+dVOM7h6kMfL2zAzJ+G6kS0t8FK23hyD45MEdn/OJmzZPV18NgyOBY25ISpScjh1gOhWPRN90bQtiMz6/p2EUhjRiGbmqYbJLZLjhN0PMM0N5kzPlXjpOjaV+HwIDAQAB",
+   "manifest_version": 3,
+   "name": "Limit - Set Limits for Distracting Sites",
+   "permissions": [ "tabs", "storage", "idle", "notifications", "alarms" ],
+   "short_name": "Limit",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "html/*", "images/*", "fonts/*" ]
+   } ]
+}

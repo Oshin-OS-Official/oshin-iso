@@ -1,0 +1,1 @@
+define(()=>class{model=null});

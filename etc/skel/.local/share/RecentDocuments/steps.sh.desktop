@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=steps.sh
+Type=Link
+URL[$e]=file:$HOME/KDE-20230324/steps.sh
+X-KDE-LastOpenedWith=org.kde.kate

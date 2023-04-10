@@ -1,0 +1,26 @@
+/* #region Pages */
+/* Audio */
+#supportedAudioSitesStatus, #supportedAudioSitesStatus:hover {
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#supportedAudioSitesConfig {
+  display: block;
+  margin-bottom: 15px;
+}
+/* #endregion */
+
+/* #region Modals */
+#supportedAudioSitesModal {
+  z-index: 500;
+}
+
+#supportedAudioSitesModal textarea {
+  width: 420px;
+  height: 400px;
+  font-size: 11px;
+}
+/* #endregion */

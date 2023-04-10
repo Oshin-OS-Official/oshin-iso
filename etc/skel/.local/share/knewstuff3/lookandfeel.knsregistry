@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="121">
+  <name>Flat Remix KDE Look</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>daniruiz06</author>
+  <homepage>https://store.kde.org/p/1308564</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>60</rating>
+  <downloads>39369</downloads>
+  <installedfile>/home/prharsha/.local/share/plasma/look-and-feel/Flat-Remix-Blue</installedfile>
+  <id>1308564</id>
+  <releasedate>2019-07-24</releasedate>
+  <summary>&lt;h4>&lt;br />
+Web Page: &lt;strong>&lt;a href="https://drasite.com/flat-remix-kde" target="_blank" rel="nofollow">drasite.com/flat-remix-kde&lt;/a>&lt;/strong>&lt;br />
+&lt;img src="https://opendesktop.org/theme/flatui/img/email3.png" alt="email3" />  &lt;strong>&lt;a href="https://twitter.com/dani_ruiz24" target="_blank"...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/36/00/71/1308564/a25dbd46e13f9cc444b4bd8d3b3bafd511a6.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/36/00/71/1308564/a25dbd46e13f9cc444b4bd8d3b3bafd511a6.png</previewBig>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NjM5ODgzOTgiLCJvIjoiMSIsInMiOiI4NTI1YzFiYmFjMjBjZjFkODhjOTIxN2NmMWRjMzhiYzg4MWU2NDYzMzc2YjQ0M2ExZGVjYzQ4YmNmMTJiMWFlY2I3M2UwNzFmMTM4NzUyNmE1NGNkMzc0ODEwYmJhY2M1OGYzNDU5N2VjYmIxMDMxMDc0OWViZDRmZmM3ZWQwNCIsInQiOjE2ODEwMzAzMzgsInN0ZnAiOm51bGwsInN0aXAiOiI0NS4xMjUuMTE4LjgyIn0.kTL4zKpaMPFOYvkaWyZ9Hw50L3NM-LRZjQ5Ae5KQ6kA/01-Flat-Remix-Blue_1.1.tar.xz</payload>
+  <tags>original-product,plasma,material,gplv3,linux,look-and-feel,kde,flat,remix,unix,theme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

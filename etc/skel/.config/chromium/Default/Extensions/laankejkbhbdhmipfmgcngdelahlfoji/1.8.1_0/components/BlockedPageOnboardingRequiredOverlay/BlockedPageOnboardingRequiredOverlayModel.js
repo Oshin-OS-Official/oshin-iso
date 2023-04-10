@@ -1,0 +1,1 @@
+define(()=>class{hasBeenShown=!1;init(){}});

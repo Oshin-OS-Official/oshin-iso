@@ -398,6 +398,8 @@ trizen
 
 # Oshin OS Packages
 papirus-icon-theme
+catppuccin-kde-theme
+sddm-theme-astronaut
 sddm-sugar-candy-git
 oshin-welcome
 oshin-grub
@@ -406,3 +408,4 @@ plymouth-git
 activitywatch-bin
 hblock
 kdeplasma-applets-fokus
+pyqt5

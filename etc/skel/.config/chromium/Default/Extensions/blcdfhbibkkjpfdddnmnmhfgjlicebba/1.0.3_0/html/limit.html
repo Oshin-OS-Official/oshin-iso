@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>Freedom - Page Paused</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style type="text/css">
+            @font-face {
+                font-family: 'avenir-light';
+                src: url('/fonts/avenir-light.woff');
+            }
+
+            body {
+                background-color: #6ec05d;
+                color: white;
+                font-family: "avenir-light", "Avenir", "Segoe UI", "Trebuchet MS", "Arial";
+                font-size: 28px;
+            }
+            a, a:visited, a:active {
+                color: white;
+                text-decoration: none;
+            }
+            a.link:hover{
+                color: white;
+                text-decoration: none;
+                border-bottom: 1px solid white;
+                padding-bottom: 1px;
+                display: inline-block;
+                line-height: 100%;
+            }
+            .centered {
+                position: fixed;
+                top: 42%;
+                left: 50%;
+                text-align: center;
+                height: 200px;
+                width: 90%;
+                margin-left: -45%;
+                margin-top: -100px;
+            }
+
+            @media (max-height:500px) {
+                .centered {
+                    top: 25% !important;
+                }
+            }
+
+            .pulsate {
+                animation: appear 2s ease-in 1, pulsate 5s 2s ease-out infinite;
+            }
+
+            #message-pause {
+                animation: appear 2s ease-in 1;
+            }
+            #extra-buttons-wrapper {
+                animation: appear-delay 4s ease-in 1;
+            }
+
+            @keyframes appear{
+                0% {   opacity: 0; }
+                100% { opacity: 1; }
+            }
+
+            @keyframes appear-delay {
+                0% {   opacity: 0; }
+                75% {  opacity: 0; }
+                100% { opacity: 1; }
+            }
+
+            @keyframes pulsate {
+                0% {
+                    opacity: 1.0;
+                }
+                50% {
+                    opacity: 0.4;
+                }
+                100% {
+                    opacity: 1.0;
+                }
+            }
+            .hidden {
+                display: none;
+                pointer-events: none;
+            }
+            .feel-good-text {
+                font-size: 16px;
+                margin-top: 8px;
+            }
+
+            #btn-close {
+                display: table;
+                color: #6ec05d;
+                background-color: white;
+                padding: 15px 50px 15px 50px;
+                margin: 35px auto 10px auto;
+                border-radius: 5px;
+                font-size: 20px;
+            }
+            #btn-allow-domain {
+                font-size:16px;   
+            }
+            #footer {
+                animation: appear-delay 4s ease-in 1;
+                position: fixed;
+                font-size:0.7em;
+                bottom: 30px;
+                left: 30px;
+            }
+
+            #footer a {
+                border-bottom: 1px solid white;
+            }
+
+            #footer a:hover {
+                border-bottom: 0px;
+            }
+            #footer-hide-button {
+                font-family: sans-serif;
+                font-size: 0.75em;
+                position: relative;
+                bottom: 1px;
+                margin-left: 10px;
+                text-decoration: none;
+                border: none !important;
+            }
+            
+            
+
+        </style>
+        <script src="/js/limit.js"></script>
+    </head>
+    <body>
+        <div id="notificationarea" class="centered">
+            <img id="freedom-logo" class="pulsate" src="/images/logo.svg" width="200" height="192" />
+
+
+            <div id="message-pause" >You've reached your daily limit for <span id="page-name">this site</span></div>
+            <div id="extra-buttons-wrapper" >
+                <a href="https://freedom.to?utm_source=limitpage" id="btn-close">Get Freedom</a>
+            </div>
+
+            <div id="footer">
+                <span id="review-container"></span>
+                <a href="#" id="footer-hide-button" title="Don't show review link anymore">x</a>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script id="review-tmpl" type="x-tmpl-mustache">
+    Enjoying Limit? <a href="https://chrome.google.com/webstore/detail/limit-set-limits-for-dist/blcdfhbibkkjpfdddnmnmhfgjlicebba?hl=en" target="_blank">Please leave us a rating and review</a>
+</script>
+
+<script id="review-no-href-tmpl" type="x-tmpl-mustache">
+    Enjoying Limit? Please leave us a rating and review
+</script>
