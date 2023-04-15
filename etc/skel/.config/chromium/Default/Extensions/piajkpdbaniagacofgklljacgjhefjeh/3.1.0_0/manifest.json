@@ -19,6 +19,7 @@
       "run_at": "document_start"
    } ],
    "description": "Advanced Profanity Filter helps to clean up bad language on the websites you and your family visit.",
+   "differential_fingerprint": "1.a7eea0bedaa07b471f4935a020b3a27f0bc2e54dd50cd89b958ceaf0ebea35a4",
    "host_permissions": [ "https://*.crunchyroll.com/", "https://*.vrv.co/" ],
    "icons": {
       "128": "img/icon128.png",
@@ -35,7 +36,7 @@
    "permissions": [ "contextMenus", "notifications", "scripting", "storage", "tabs" ],
    "short_name": "APF",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "3.0.3",
+   "version": "3.1.0",
    "web_accessible_resources": [ {
       "matches": [ "\u003Call_urls>" ],
       "resources": [ "audio/*.mp3" ]

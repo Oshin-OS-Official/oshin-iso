@@ -1,2 +1,3 @@
-2023/04/09-20:17:39.035 48ee Creating DB /home/final/.config/chromium/Default/Extension Scripts since it was missing.
-2023/04/09-20:17:39.038 48ee Reusing MANIFEST /home/final/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/04/13-12:53:50.981 ce0 Reusing MANIFEST /home/final/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/04/13-12:53:50.982 ce0 Recovering log #3
+2023/04/13-12:53:50.983 ce0 Reusing old log /home/final/.config/chromium/Default/Extension Scripts/000003.log 

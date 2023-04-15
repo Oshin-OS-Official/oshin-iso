@@ -1,3 +1,2 @@
-2023/04/09-20:43:25.125 669 Reusing MANIFEST /home/final/.config/chromium/Default/Service Worker/Database/MANIFEST-000001
-2023/04/09-20:43:25.125 669 Recovering log #3
-2023/04/09-20:43:25.126 669 Reusing old log /home/final/.config/chromium/Default/Service Worker/Database/000003.log 
+2023/04/13-12:54:11.793 ce3 Creating DB /home/final/.config/chromium/Default/Service Worker/Database__tmp_for_rebuild since it was missing.
+2023/04/13-12:54:11.797 ce3 Reusing MANIFEST /home/final/.config/chromium/Default/Service Worker/Database__tmp_for_rebuild/MANIFEST-000001

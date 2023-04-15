@@ -1,3 +1,2 @@
-2023/04/09-23:06:44.920 776 Reusing MANIFEST /home/final/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
-2023/04/09-23:06:44.921 776 Recovering log #3
-2023/04/09-23:06:44.921 776 Reusing old log /home/final/.config/chromium/Default/Site Characteristics Database/000003.log 
+2023/04/13-12:54:11.816 ce0 Creating DB /home/final/.config/chromium/Default/Site Characteristics Database since it was missing.
+2023/04/13-12:54:11.820 ce0 Reusing MANIFEST /home/final/.config/chromium/Default/Site Characteristics Database/MANIFEST-000001
