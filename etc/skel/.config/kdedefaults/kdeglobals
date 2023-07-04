@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMacchiatoRosewater
 
 [Icons]
-Theme=breeze
+Theme=breeze-dark
 
 [KDE]
 widgetStyle=Breeze

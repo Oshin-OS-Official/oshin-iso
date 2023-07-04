@@ -1,1 +1,0 @@
-define(["core/Logger","core/vendor/jquery.min"],function(Logger,$){return class{model=null;setJQuery(jQuery){$=jQuery||$}inject($container,content){$container=$container||$("body");var self=this;$container.html(content).promise().done(function(){self.bindUIHandlers()})}bindUIHandlers(){}}});

@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=text-plain
-Name=grub
-Type=Link
-URL[$e]=file:$HOME/KDE-20230324/etc/default/grub
-X-KDE-LastOpenedWith=org.kde.kate

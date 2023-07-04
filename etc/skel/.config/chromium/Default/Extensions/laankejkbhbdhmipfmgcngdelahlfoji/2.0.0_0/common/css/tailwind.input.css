@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* Keeps the vertical height the same compared to the old UI - this should be removed after the UI refresh */
+    line-height: unset;
+  }
+  body {
+    font-size: 100%;
+  }
+}
+
+@layer components {
+  /* Button Overrides */
+
+  :root {
+    --rounded-btn: 0.25rem;
+  }
+
+  .settings-tab a {
+    @apply w-full px-4 py-3 gap-2 flex items-center rounded-l text-base-content text-opacity-70 justify-end bg-base-100 bg-opacity-0 cursor-pointer transition-all;
+  }
+  .settings-tab a:hover {
+    @apply bg-opacity-70 text-opacity-100;
+  }
+  .settings-tab a.active {
+    @apply bg-opacity-100 font-bold text-primary-focus;
+  }
+
+  /* Alerts */
+
+  .alert {
+    --alert-color: var(--n);
+    --alert-outline: var(--nf);
+    --alert-content: var(--nc);
+    background-color: hsl(var(--alert-color) / 0.15);
+    border: 1px solid hsl(var(--alert-outline) / 0.5);
+    padding: 8px;
+    border-radius: 4px;
+    color: hsl(var(--alert-content));
+  }
+  .alert > img,
+  .alert > svg {
+    stroke: hsl(var(--alert-color));
+  }
+  .alert .alert-title {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .alert * {
+    color: hsl(var(--alert-content));
+  }
+
+  .alert.alert-primary {
+    --alert-color: var(--p);
+    --alert-outline: var(--pf);
+    --alert-content: var(--pf);
+  }
+  .alert.alert-secondary {
+    --alert-color: var(--s);
+    --alert-outline: var(--sf);
+  }
+  .alert.alert-accent {
+    --alert-color: var(--a);
+    --alert-outline: var(--af);
+  }
+  .alert.alert-info {
+    --alert-color: var(--in);
+    --alert-outline: var(--in);
+    --alert-content: var(--in);
+  }
+  .alert.alert-warning {
+    --alert-color: var(--wa);
+    --alert-outline: var(--wa);
+    --alert-content: var(--wa);
+  }
+  .alert.alert-error {
+    --alert-color: var(--er);
+    --alert-outline: var(--er);
+    --alert-content: var(--er);
+  }
+  .alert.alert-neutral {
+    --alert-color: var(--n);
+    --alert-outline: var(--nf);
+    --alert-content: var(--nc);
+  }
+
+  /* Chips */
+
+  .chip {
+    --chip-color: var(--n);
+    --chip-outline: var(--nf);
+    --chip-content: var(--nc);
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: hsl(var(--chip-color) / 0.15);
+    border: 1px solid hsl(var(--chip-outline) / 0.5);
+    border-radius: 4px;
+  }
+  .chip.chip-primary {
+    --chip-color: var(--p);
+    --chip-outline: var(--pf);
+    --chip-content: var(--pc);
+  }
+  .chip.chip-secondary {
+    --chip-color: var(--s);
+    --chip-outline: var(--sf);
+    --chip-content: var(--sc);
+  }
+  .chip.chip-accent {
+    --chip-color: var(--a);
+    --chip-outline: var(--af);
+    --chip-content: var(--ac);
+  }
+  .chip.chip-info {
+    --chip-color: var(--in);
+    --chip-outline: var(--in);
+    --chip-content: var(--inc);
+  }
+  .chip.chip-warning {
+    --chip-color: var(--wa);
+    --chip-outline: var(--wa);
+    --chip-content: var(--wac);
+  }
+  .chip.chip-error {
+    --chip-color: var(--er);
+    --chip-outline: var(--er);
+    --chip-content: var(--erc);
+  }
+  .chip.chip-neutral {
+    --chip-color: var(--n);
+    --chip-outline: var(--nf);
+    --chip-content: var(--nc);
+  }
+
+  /* Prose */
+
+  .prose {
+    max-width: unset;
+  }
+  .prose :where(h1):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.75rem; /* 28px */
+    font-weight: 500;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+    color: hsl(var(--p));
+  }
+  .prose :where(h2):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem; /* 24px */
+    font-weight: 400;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+  .prose :where(h3):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem; /* 20px */
+    font-weight: 500;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+  .prose :where(h4):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem; /* 18px */
+    font-weight: 500;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+  .prose :where(h5):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem; /* 16px */
+    font-weight: 500;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+  .prose :where(h6):not(:where([class~='not-prose'] *)) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.75rem; /* 12px */
+    font-weight: 500;
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+  .prose :where(a):not(:where([class~='not-prose'] *)) {
+    @apply link link-secondary;
+  }
+  .prose :where(ul):not(:where([class~='not-prose'] *)) {
+    margin-top: 0.5rem; /* 8px */
+    margin-bottom: 0.5rem; /* 8px */
+  }
+  .prose :where(li):not(:where([class~='not-prose'] *)) {
+    margin-top: 0.25em; /* 4px */
+    margin-bottom: 0.25em; /* 4px */
+  }
+  .prose :where(hr):not(:where([class~='not-prose'] *)) {
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+    border-color: hsl(var(--n));
+    border-top-width: 2px;
+  }
+  .prose :where(p):not(:where([class~='not-prose'] *)) {
+    margin-top: 1em; /* 16px */
+    margin-bottom: 1em; /* 16px */
+  }
+}
+
+#overlay {
+  background-color: #000;
+  cursor: wait;
+  overflow: hidden;
+  position: relative;
+}

@@ -2,80 +2,6 @@
 <!DOCTYPE khotnewstuff3>
 <hotnewstuffregistry>
  <stuff category="104">
-  <name>McSur-dark Plasma Theme</name>
-  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
-  <author>yeyushengfan258</author>
-  <homepage>https://store.kde.org/p/1406032</homepage>
-  <licence></licence>
-  <version></version>
-  <rating>74</rating>
-  <downloads>412</downloads>
-  <installedfile>/home/prharsha/.local/share/plasma/desktoptheme/McSur-dark</installedfile>
-  <id>1406032</id>
-  <releasedate>2023-04-03</releasedate>
-  <summary>McSur-dark kde is a light clean theme for KDE Plasma desktop.&lt;br />
-&lt;br />
-In this repository you'll find:&lt;br />
-&lt;br />
-    Aurorae Themes&lt;br />
-    Kvantum Themes&lt;br />
-    Plasma Color Schemes&lt;br />
-    Plasma Desktop Themes&lt;br />
-    Plasma Look-and-Feel Settings&lt;br />
-&lt;br />
-    &lt;br />
-------------------------------&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Global Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1406038/" target="_blank" rel="nofollow">https://www.pling.com/p/1406038/&lt;/a>&lt;br />
-&lt;br />
-------------------------------&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Aurorae Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1406026/" target="_blank" rel="nofollow">https://www.pling.com/p/1406026/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Sddm Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1406030/" target="_blank" rel="nofollow">https://www.pling.com/p/1406030/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Color Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1406025/" target="_blank" rel="nofollow">https://www.pling.com/p/1406025/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Kvantum&lt;/strong>:&lt;a href="https://www.pling.com/p/1406027/" target="_blank" rel="nofollow">https://www.pling.com/p/1406027/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>McSur-dark Wallpaper &lt;/strong>:&lt;a href="https://www.pling.com/p/1406023/" target="_blank" rel="nofollow">https://www.pling.com/p/1406023/&lt;/a>&lt;br />
-&lt;br />
-------------------------------&lt;br />
-&lt;br />
-&lt;strong>BigSur icon theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1399044/" target="_blank" rel="nofollow">https://www.pling.com/p/1399044/&lt;/a></summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/90/1406032/screenshot-20220915-0004311.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/90/1406032/screenshot-20220915-0004311.png</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2ODA1MzQ2NTUiLCJvIjoiMSIsInMiOiI4MDYwMmEzZmRkOGI0YWJhM2NhZjA4YzY4OTViMzRjYTI0ZDFkOGE1ZmViMTk3ODMyNzc3NTMyNTczNTFmOWM0OTRhNGVlMGU4OWM2Y2ExYjgzZTU1ZDNlYzY5N2ZmM2E5M2Q2NDY0NTk2MWY5ZTZkYmZhZmFiYzkwODY2MDNhYSIsInQiOjE2ODA5NzY0NDMsInN0ZnAiOm51bGwsInN0aXAiOiI0NS4xMjUuMTE4LjgyIn0.HfPZCCnjsOH3p5kLyJ_96jwAZ4Uv-I79l_KCt9-L-dc/McSur-dark.zip</payload>
-  <tags>linux,gplv3,kde,original-product,plasma,unix,theme</tags>
-  <status>installed</status>
- </stuff>
- <stuff category="104">
-  <name>Arc Dark KDE</name>
-  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
-  <author>x-varlesh-x</author>
-  <homepage>https://store.kde.org/p/1167639</homepage>
-  <licence></licence>
-  <version>20220908</version>
-  <rating>82</rating>
-  <downloads>35626</downloads>
-  <installedfile>/home/prharsha/.local/share/plasma/desktoptheme/Arc-Dark</installedfile>
-  <id>1167639</id>
-  <releasedate>2022-09-08</releasedate>
-  <summary>Arc KDE - This is a port of the popular GTK theme Arc for Plasma 5 desktop with a few additions and extras.&lt;br />
-&lt;br />
-&lt;br />
-RECOMMEND USE THIS CUSTOMISATION WITH KVANTUM ENGINE:&lt;br />
-https://www.opendesktop.org/p/1005410/&lt;br />
-https://github.com/tsujan/Kvantum/releases</summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/43/80/78/1167639/screenshot-20220603-091408.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/43/80/78/1167639/screenshot-20220603-091408.png</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjI2MTE1MDgiLCJvIjoiMSIsInMiOiIyOTFiMjdiMjVhYjZkNmQ1NWRhOGE2OTBmYzE1MTM1ZjE4MzI0ZDBkMWZjOWIyMWNlMTdhY2IxY2JiM2JlNDg2ODJkNjFjNjlkNmYwOTgzZTM1NjhiM2ZkODZlMTNiNDExMjg0MmJjYzdhM2ViMTgzZmRhMmMxNTM0YTJkMTE0MSIsInQiOjE2ODEwMzIxMDUsInN0ZnAiOm51bGwsInN0aXAiOiIxODIuNzIuMzkuMTAifQ.uDLfsnJfV0QA9o9vCyUbcVG270b2YdAdfdjm5Ckxqdg/Arc-Dark.tar.gz</payload>
-  <tags>gplv3,kde,linux,blue,dark,plasma,original-product,ark,unix,theme</tags>
-  <status>installed</status>
- </stuff>
- <stuff category="104">
   <name>Lightly Plasma</name>
   <providerid>https://api.kde-look.org/ocs/v1/</providerid>
   <author>doncsugar</author>
@@ -83,8 +9,8 @@ https://github.com/tsujan/Kvantum/releases</summary>
   <licence></licence>
   <version>.1</version>
   <rating>64</rating>
-  <downloads>8796</downloads>
-  <installedfile>/home/prharsha/.local/share/plasma/desktoptheme/lightly-plasma-git</installedfile>
+  <downloads>12394</downloads>
+  <installedfile>/home/oshin/.local/share/plasma/desktoptheme/lightly-plasma-git</installedfile>
   <id>1879921</id>
   <releasedate>2022-08-13</releasedate>
   <summary>An attempt at making a &lt;a href="https://develop.kde.org/docs/extend/plasma/theme/theme-details/" target="_blank" rel="nofollow">Plasma Style&lt;/a> for the &lt;a href="https://www.pling.com/p/1414190/" target="_blank" rel="nofollow">Lightly Application Style&lt;/a> by &lt;a href="https://github.com/Luwx/Lightly" target="_blank" rel="nofollow">Luwx&lt;/a>﻿&lt;br />
@@ -95,56 +21,8 @@ This theme suffers from a number of &lt;a href="https://github.com/doncsugar/lig
   <changelog></changelog>
   <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/12/88/1879921/2022-08-12-23-02.png</preview>
   <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/12/88/1879921/2022-08-12-23-02.png</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjAzNjEyNzYiLCJvIjoiMSIsInMiOiI4YTM1NWQxZjllNzY3NWI1MDUyMmFiMmU0ZmJlNzJhYmM1MTZlZDYwMjYwYWY2MWMyNTZkY2MwZjZiYThmMjVjMWU5OWViYzM2Y2I1ZGJiNjQzZGZiZWQ1ZGNhZDdjZTg4NGExNjJkOGUxMTg1YjczZDA1YTEwYzBiMDUyOTJiNyIsInQiOjE2ODEwMzQ1NzQsInN0ZnAiOm51bGwsInN0aXAiOiIxODIuNzIuMzkuMTAifQ.JEj0Pd3tyNd3-NjFWh5vdMxwlmD3kyniQSdpGh_hKvE/lightly-plasma-git.zip</payload>
-  <tags>plasma##majorversion=5,theme,unix,original-product,plasma,kde,gplv3,linux</tags>
-  <status>installed</status>
- </stuff>
- <stuff category="104">
-  <name>ArcAurora-dark Plasma Theme</name>
-  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
-  <author>yeyushengfan258</author>
-  <homepage>https://store.kde.org/p/1665735</homepage>
-  <licence></licence>
-  <version></version>
-  <rating>64</rating>
-  <downloads>446</downloads>
-  <installedfile>/home/prharsha/.local/share/plasma/desktoptheme/ArcAurora-dark</installedfile>
-  <id>1665735</id>
-  <releasedate>2023-03-26</releasedate>
-  <summary>ArcAurora-dark kde is a dark clean theme for KDE Plasma desktop.&lt;br />
-&lt;br />
-In this repository you'll find:&lt;br />
-&lt;br />
-    Aurorae Themes&lt;br />
-    Kvantum Themes&lt;br />
-    Plasma Color Schemes&lt;br />
-    Plasma Desktop Themes&lt;br />
-    Plasma Look-and-Feel Settings&lt;br />
-    &lt;br />
-&lt;br />
-    &lt;br />
-&lt;strong>ArcAurora-dark Global Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1665744/" target="_blank" rel="nofollow">https://www.pling.com/p/1665744/&lt;/a>  &lt;br />
-    &lt;br />
-&lt;strong>ArcAurora-dark Sddm Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1665732/" target="_blank" rel="nofollow">https://www.pling.com/p/1665732/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>ArcAurora-dark Color Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1665726/" target="_blank" rel="nofollow">https://www.pling.com/p/1665726/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>ArcAurora-dark Aurorae Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1665722/" target="_blank" rel="nofollow">https://www.pling.com/p/1665722/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>ArcAurora-dark Kvantum &lt;/strong>:&lt;a href="https://www.pling.com/p/1665730/" target="_blank" rel="nofollow">https://www.pling.com/p/1665730/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>ArcAurora-dark Wallpaper &lt;/strong>:&lt;a href="https://www.pling.com/p/1665717/" target="_blank" rel="nofollow">https://www.pling.com/p/1665717/&lt;/a>&lt;br />
-&lt;br />
-------------------------------&lt;br />
-&lt;br />
-&lt;strong>Win11 icon theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1546069/" target="_blank" rel="nofollow">https://www.pling.com/p/1546069/&lt;/a>&lt;br />
-&lt;br />
-&lt;strong>ArcAurora cursors theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1665694/" target="_blank" rel="nofollow">https://www.pling.com/p/1665694/&lt;/a></summary>
-  <changelog></changelog>
-  <preview>https://images.pling.com/cache/100x100-0/img/00/00/54/79/90/1665735/screenshot-20211216-000518.png</preview>
-  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/54/79/90/1665735/screenshot-20211216-000518.png</previewBig>
-  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2Nzk4MzU1MjMiLCJvIjoiMSIsInMiOiIwMjI3MWI2NzEwMWVmN2M4ZGE5ODYyOTAxNDE5NTQ1OWE4ZWZkMjQ1N2ExNGFmZDhhZmVkMWY0YTBhYTc0MzFjN2VjNGM4MTY4NTcwMTg0ZTFjMDhiODlkZjZlM2NhZTA1NzE3MGE0MTRjOWQxODRiMmY1ZTA0ZWRjZDM0YjliNyIsInQiOjE2ODA5NzYxOTcsInN0ZnAiOm51bGwsInN0aXAiOiIxODIuNzIuMzkuMTAifQ.pYtNfEA7kn2qqZ1wp2sNrRR8HRr6TdnGIxcVa15mPqM/ArcAurora-dark.zip</payload>
-  <tags>unix,theme,gplv3,linux,kde,original-product,plasma</tags>
+  <payload>https://files03.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2NjAzNjEyNzYiLCJvIjoiMSIsInMiOiJhMDdmNDhlZjA4NWIyNDFhMzgzYjM5OTE3NGUxNWJjYTI1MWJhYjJkMjZlOTVjOTdlYTM1NjI4ZjFhNWEzZTkwZDMwZDg3NjhjNjk2YzFkN2FlNmZjNzZjMTFjMDNlYjkzYzNhYmZmNGZmYzk1NWUwNzhhY2RjZjVlY2NhYWU3ZiIsInQiOjE2ODc4NTkyOTIsInN0ZnAiOm51bGwsInN0aXAiOiIxMTEuOTMuNzQuMTU4In0.xR9wx3GPtFhXNEeAHMGrG_BN76RUPchQzR1x5tpi7Ms/lightly-plasma-git.zip</payload>
+  <tags>gplv3,plasma##majorversion=5,linux,kde,plasma,theme,original-product,unix</tags>
   <status>installed</status>
  </stuff>
 </hotnewstuffregistry>

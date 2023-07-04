@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # grubinstall script
-# Revision: 2023.03.24 -- by eznix (https://sourceforge.net/projects/ezarch/)
+# Revision: 2023.05.21 -- by eznix (https://sourceforge.net/projects/ezarch/)
 # (GNU/General Public License version 3.0)
 
 if [ -d "/sys/firmware/efi" ]; then

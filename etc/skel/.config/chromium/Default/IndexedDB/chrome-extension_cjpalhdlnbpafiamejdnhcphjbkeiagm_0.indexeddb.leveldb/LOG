@@ -1,3 +1,2 @@
-2023/04/13-12:53:51.919 ce0 Reusing MANIFEST /home/final/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/13-12:53:51.919 ce0 Recovering log #3
-2023/04/13-12:53:51.920 ce0 Reusing old log /home/final/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000003.log 
+2023/06/29-20:40:42.610 43b6 Creating DB /home/oshin/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb since it was missing.
+2023/06/29-20:40:42.623 43b6 Reusing MANIFEST /home/oshin/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001

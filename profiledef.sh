@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="oshinos-kde"
-iso_label="OSHINOS-KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Oshin OS <https://github.com/Oshin-OS/>"
-iso_application="OshinOS DVD"
-iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+iso_label="OSHINOS-KDE_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
+iso_publisher="Oshin OS <https://oshinos.org/>"
+iso_application="Oshin DVD"
+iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m%d)"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

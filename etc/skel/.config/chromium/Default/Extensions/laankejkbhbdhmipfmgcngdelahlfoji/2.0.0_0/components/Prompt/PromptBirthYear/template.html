@@ -1,0 +1,11 @@
+<div id="promptingBirthYear" class="relative sm:fixed sm:rounded-t-lg sm:border-t sm:border-l sm:border-r border-base-300 sm:border-solid left-0 right-0 bottom-0 bg-base-200 md:w-[80%] mx-auto inline-flex sm:items-center justify-center flex-col sm:flex-row gap-3 p-3 w-full">
+    <p data-i18n="askBirthYearTitle" class="prompt-description text-sm text-base-content"></p>
+    <div class="input-block flex gap-2 sm:items-center">
+        <label data-i18n="askBirthYear" class="prompt-title text-sm font-bold" for="birthYear"></label>
+        <div class="tooltip-open tooltip-error" data-tip="accent" id="promptWarningMessage">
+            <input type="number" id="birthYear" class="prompt-input input input-bordered input-xs w-24" maxlength="4" placeholder="YYYY" />
+        </div>
+        <button id="btnSubmitBirthYear" class="btn-submit btn btn-primary btn-xs" data-i18n="submit"></button>
+    </div>
+    <iconify-icon id="closePrompting" width="20" class="btn-close absolute right-2 cursor-pointer" icon="mdi:window-close"></iconify-icon>
+</div>

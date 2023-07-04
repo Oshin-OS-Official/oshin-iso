@@ -123,7 +123,6 @@ ForegroundVisited=198, 160, 246
 
 [General]
 AccentColor=61,174,233
-BrowserApplication=chromium.desktop
 ColorSchemeHash=0dec5da37791660901ffe8d073fbb493b11523f4
 LastUsedCustomAccentColor=61,174,233
 

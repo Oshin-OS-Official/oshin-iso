@@ -10,7 +10,6 @@ from PyQt5.QtWebEngineWidgets import QWebEngineSettings
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
 import json
-import pandas as pd
 import random
 import sys
 import os

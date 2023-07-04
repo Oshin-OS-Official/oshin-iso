@@ -1,0 +1,36 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
+
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+1920x1080 screen: Window-Maximized=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Templates/KDE-20230603/etc/calamares/branding/oshinos/squid.png
+File10[$e]=$HOME/Downloads/Templates/KDE-20230603/etc/calamares/branding/oshinos/slide2.png
+File2[$e]=$HOME/Downloads/Templates/KDE-20230603/syslinux/splash.png
+File3[$e]=$HOME/Oshin/oshin-grub/oshin/icons/oshin.png
+File4[$e]=$HOME/Downloads/256x256__2_-removebg-preview.png
+File5[$e]=$HOME/oshin-welcome/src/img/oshin-welcome.png
+File6[$e]=$HOME/oshin-welcome/src/img/logo.png
+File7[$e]=$HOME/Downloads/Templates/KDE-20230603/etc/calamares/branding/oshinos/languages.png
+File8[$e]=$HOME/Downloads/Templates/KDE-20230603/etc/calamares/branding/oshinos/logo.png
+File9[$e]=$HOME/Downloads/Templates/KDE-20230603/etc/calamares/branding/oshinos/slide1.png
+Name1[$e]=squid.png
+Name10[$e]=slide2.png
+Name2[$e]=splash.png
+Name3[$e]=oshin.png
+Name4[$e]=256x256__2_-removebg-preview.png
+Name5[$e]=oshin-welcome.png
+Name6[$e]=logo.png
+Name7[$e]=languages.png
+Name8[$e]=logo.png
+Name9[$e]=slide1.png
+
+[SideBar]
+InformationSplitterSizes=212,243

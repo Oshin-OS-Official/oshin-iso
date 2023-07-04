@@ -1,0 +1,1 @@
+define(()=>{return{PromptType:{PrompBirthYear:"PrompBirthYear",PromptReview:"PromptReview",PromptSurvey:"PromptSurvey"}}});

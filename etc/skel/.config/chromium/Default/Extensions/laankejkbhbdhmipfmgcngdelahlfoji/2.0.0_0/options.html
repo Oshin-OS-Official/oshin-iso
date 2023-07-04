@@ -1,0 +1,924 @@
+<html>
+    <head>
+        <title>StayFocusd : Settings</title>
+        <link href="common/css/tailwind.css" rel="stylesheet" type="text/css" />
+        <script src="/core/vendor/iconify-icon.min.js"></script>
+        <script type="text/javascript" data-main="/core/options-bootstrap.js" src="/core/vendor/require.js"></script>
+    </head>
+    <body class="bg-base-100">
+        <div id="page" class="flex flex-col min-h-full">
+
+            <section class="border-t border-b border-neutral-focus bg-neutral py-2 pl-8 pr-4">
+                <div class="max-w-screen-lg w-full mx-auto flex gap-4">
+                    <p class="font-medium">
+                        Want to help us improve StayFocusd? Fill out the <a class="link link-secondary" href="https://forms.gle/SNwdQR43Z1kbuHab6" target="_blank">Feedback Form</a>!
+                    </p>
+                </div>
+            </section>
+
+            <div class="flex-1 flex w-full">
+                <!-- Left side spacing/coloring -->
+                <div class="bg-neutral flex-1"></div>
+
+                <div class="flex max-w-screen-lg w-full">
+                    <div class="flex relative">
+                        <ul id="nav" class="shrink-0 bg-neutral pl-4 pb-4 pt-2">
+                            <li id="logo" class="pl-2 pt-2 pr-4 pb-4">
+                                <img class="w-48" src="common/img/logo.svg" title="StayFocusd" alt="StayFocusd">
+                            </li>
+                            <li class="settings-tab" data-link="maxTimeAllowed" data-option data-bypass>
+                                <a href="#maxTimeAllowedTab">Max Time Allowed</a>
+                            </li>
+                            <li class="settings-tab" data-link="activeDays" data-option data-bypass>
+                                <a href="#activeDaysTab">Active Days</a>
+                            </li>
+                            <li class="settings-tab" data-link="activeHours" data-option>
+                                <a href="#activeHoursTab">Active Hours</a>
+                            </li>
+                            <li class="settings-tab" data-link="resetTime"data-option>
+                                <a href="#resetTimeTab">Daily Reset Time</a>
+                            </li>
+                            <li class="settings-tab" data-link="blockedSites" data-option data-bypass>
+                                <a href="#blockedSitesTab">Blocked Sites</a>
+                            </li>
+                            <li class="settings-tab" data-link="allowedSites" data-option>
+                                <a href="#allowedSitesTab">Allowed Sites</a>
+                            </li>
+                            <li class="settings-tab" data-link="nuclearOption" data-option data-bypass>
+                                <a href="#nuclearOptionTab">The Nuclear Option</a>
+                            </li>
+                            <li class="settings-tab" data-link="requireChallenge" data-option>
+                                <a href="#requireChallengeTab">Require Challenge</a>
+                            </li>
+                            <li class="settings-tab" data-link="customize" data-option>
+                                <a href="#customizeTab">Customize</a>
+                            </li>
+                            <li class="settings-tab" data-link="importExport" data-option>
+                                <a href="#importExportTab">Import/Export</a>
+                            </li>
+                            <li class="settings-tab hidden" data-link="rescueMe" data-option>
+                                <a href="#rescueMeTab">Rescue Me</a>
+                            </li>
+                            <li class="settings-tab text-right" id="help" data-option data-bypass>
+                                <a href="help.html">
+                                    <iconify-icon icon="mdi:help-circle" width="20" class="text-base-content/50"></iconify-icon>
+                                    <span>Help/FAQ</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="page-title" class="absolute right-0 bottom-0 py-3 px-4">
+                            <p class="text-sm">
+                                Support ID: <code id="installIdDisplay">...</code>
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul id="body" class="flex-1 bg-base-100 overflow-hidden min-h-max px-6 pb-4">
+                        <li class="hidden maxTimeAllowed prose" data-option data-bypass>
+                            <h1>
+                                Maximum Time Allowed Per Day
+                            </h1>
+                            <p id="maxTimeAllowedMsg" class="alert alert-error hidden"></p>
+                            <p>
+                                Set the maximum number of minutes per day that you will be allowed to browse sites on the
+                                Blocked Sites list.
+                            </p>
+                            <div class="flex items-center gap-4">
+                                <input type="text" class="input input-bordered w-20 text-xl font-bold" id="maxTimeAllowed">
+                                <span>minute(s)</span>
+                                <input type="button" class="btn btn-primary btn-sm" value="Set" id="maxTimeAllowedButton">
+                            </div>
+                            <p>
+                                <small class="disclaimer">This time applies to all Blocked Sites in aggregate -- it is not a
+                                    per-site timer. You cannot change this number once your time for the day has
+                                    expired.</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden activeDays prose" data-option data-bypass>
+                            <a name="activeDays"></a>
+                                <h1>
+                                    Active Days
+                                </h1>
+                                <p class="prose">
+                                    Set the days during which StayFocusd will restrict your browsing activity.
+                                </p>
+                            <ul class="activeDays px-4 pb-4 not-prose">
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="0" id="sun" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Sunday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="1" id="mon" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Monday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="2" id="tue" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Tuesday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="3" id="wed" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Wednesday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="4" id="thu" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Thursday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="5" id="fri" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Friday</span></label></li>
+                                <li class="flex"><label class="cursor-pointer label gap-3 items-center">
+                                    <input type="checkbox" value="6" id="sat" class="activeDay checkbox checkbox-sm checkbox-primary mr-2">
+                                    <span>Saturday</span></label></li>
+                            </ul>
+                            <button class="not-prose btn btn-sm checkAll" id="selectAllActiveDays">select all</button>
+                            <p>
+                                <small class="disclaimer">You cannot turn the extension off for the current day.</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden activeHours prose" data-option>
+                            <h1>
+                                Active Hours
+                            </h1>
+                            <p id="activeHoursMsg" class="alert alert-error hidden"></p>
+                            <p>
+                                Set the hours during which StayFocusd will restrict your browsing activity. These hours will
+                                apply to all Active Days.
+                            </p>
+                            <ul class="activeHours not-prose px-4 pb-4 list-none">
+                                <li class="start mb-2">
+                                    <div class="form-control flex-row items-center gap-2">
+                                        <label class="label label-text w-14">Start</label>
+                                        <div class="join">
+                                            <select class="hour join-item select select-bordered min-w-0">
+                                                <option value="00">12</option>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                            </select>
+                                            <select class="min join-item select select-bordered min-w-0">
+                                                <option value="00">00</option>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                                <option value="32">32</option>
+                                                <option value="33">33</option>
+                                                <option value="34">34</option>
+                                                <option value="35">35</option>
+                                                <option value="36">36</option>
+                                                <option value="37">37</option>
+                                                <option value="38">38</option>
+                                                <option value="39">39</option>
+                                                <option value="40">40</option>
+                                                <option value="41">41</option>
+                                                <option value="42">42</option>
+                                                <option value="43">43</option>
+                                                <option value="44">44</option>
+                                                <option value="45">45</option>
+                                                <option value="46">46</option>
+                                                <option value="47">47</option>
+                                                <option value="48">48</option>
+                                                <option value="49">49</option>
+                                                <option value="50">50</option>
+                                                <option value="51">51</option>
+                                                <option value="52">52</option>
+                                                <option value="53">53</option>
+                                                <option value="54">54</option>
+                                                <option value="55">55</option>
+                                                <option value="56">56</option>
+                                                <option value="57">57</option>
+                                                <option value="58">58</option>
+                                                <option value="59">59</option>
+                                            </select>
+                                            <select class="ampm join-item select select-bordered min-w-0">
+                                                <option value="am">AM</option>
+                                                <option value="pm">PM</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="end">
+                                    <div class="form-control flex-row items-center gap-2">
+                                        <label class="label label-text w-14">End</label>
+                                        <div class="join">
+                                            <select class="hour join-item select select-bordered min-w-0">
+                                                <option value="00">12</option>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                            </select>
+                                            <select class="min join-item select select-bordered min-w-0">
+                                                <option value="00">00</option>
+                                                <option value="01">01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                                <option value="32">32</option>
+                                                <option value="33">33</option>
+                                                <option value="34">34</option>
+                                                <option value="35">35</option>
+                                                <option value="36">36</option>
+                                                <option value="37">37</option>
+                                                <option value="38">38</option>
+                                                <option value="39">39</option>
+                                                <option value="40">40</option>
+                                                <option value="41">41</option>
+                                                <option value="42">42</option>
+                                                <option value="43">43</option>
+                                                <option value="44">44</option>
+                                                <option value="45">45</option>
+                                                <option value="46">46</option>
+                                                <option value="47">47</option>
+                                                <option value="48">48</option>
+                                                <option value="49">49</option>
+                                                <option value="50">50</option>
+                                                <option value="51">51</option>
+                                                <option value="52">52</option>
+                                                <option value="53">53</option>
+                                                <option value="54">54</option>
+                                                <option value="55">55</option>
+                                                <option value="56">56</option>
+                                                <option value="57">57</option>
+                                                <option value="58">58</option>
+                                                <option value="59">59</option>
+                                            </select>
+                                            <select class="ampm join-item select select-bordered min-w-0">
+                                                <option value="am">AM</option>
+                                                <option value="pm">PM</option>
+                                            </select>
+                                        </div>
+                                        <input type="button" class="btn btn-primary ml-2" value="Set"
+                                            id="setActiveHours">
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="mt-2">
+                                <small class="disclaimer">If you change your Active Hours, the new hours will not take effect
+                                    until this time tomorrow (24 hours from now)</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden resetTime prose" data-option>
+                            <h1>
+                                Daily Reset Time
+                            </h1>
+                            <p id="resetTimeMsg" class="alert alert-error hidden"></p>
+                            <p>
+                                Set the time at which StayFocusd will reset your allowed time for the day.
+                            </p>
+                            <p>
+                                Make sure to set your Daily Reset Time to a time <b>after</b> the end of your Active Hours.
+                            </p>
+                            <div class="p-4 flex gap-2">
+                                <div class="join">
+                                    <select class="join-item select select-bordered min-w-0">
+                                        <option value="00">12</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                    <select class="join-item select select-bordered min-w-0">
+                                        <option value="00">00</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                        <option value="32">32</option>
+                                        <option value="33">33</option>
+                                        <option value="34">34</option>
+                                        <option value="35">35</option>
+                                        <option value="36">36</option>
+                                        <option value="37">37</option>
+                                        <option value="38">38</option>
+                                        <option value="39">39</option>
+                                        <option value="40">40</option>
+                                        <option value="41">41</option>
+                                        <option value="42">42</option>
+                                        <option value="43">43</option>
+                                        <option value="44">44</option>
+                                        <option value="45">45</option>
+                                        <option value="46">46</option>
+                                        <option value="47">47</option>
+                                        <option value="48">48</option>
+                                        <option value="49">49</option>
+                                        <option value="50">50</option>
+                                        <option value="51">51</option>
+                                        <option value="52">52</option>
+                                        <option value="53">53</option>
+                                        <option value="54">54</option>
+                                        <option value="55">55</option>
+                                        <option value="56">56</option>
+                                        <option value="57">57</option>
+                                        <option value="58">58</option>
+                                        <option value="59">59</option>
+                                    </select>
+                                    <select class="join-item select select-bordered min-w-0">
+                                        <option value="am">AM</option>
+                                        <option value="pm">PM</option>
+                                    </select>
+                                </div>
+                                <input type="button" class="ml-2 btn btn-primary" value="Set" id="setResetTime">
+                            </div>
+                            <p>
+                                <small class="disclaimer">If you change your Daily Reset Time, the new time will not take
+                                    effect until this time tomorrow (24 hours from now)</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden blockedSites prose" id="blockedSites" data-option data-bypass></li>
+                        <li class="hidden allowedSites prose" id="allowedSites" data-option></li>
+
+                        <li class="hidden nuclearOption prose" data-option data-bypass>
+                            <h1>
+                                The Nuclear Option
+                            </h1>
+                            <p id="nuclearOptionMsg" class="alert alert-error hidden"></p>
+                            <p>
+                                Activating this option will block sites for the number of hours you indicate, on the days
+                                you indicate, <b>independent of your Active Hours</b>. There is <b>no way to cancel this</b>
+                                once you activate it.
+                            </p>
+                            <fieldset class="border border-solid border-base-300 p-6 mb-4 rounded-md">
+                                <form id="nuclearOptionForm" name="nuclearOption" method="POST" onsubmit="return false" class="mb-0"
+                                    action="">
+                                    <h4 class="mt-0">
+                                        Which sites do you want to block?
+                                    </h4>
+                                    <ul class="list-none pl-2">
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="radio" class="radio radio-sm radio-primary"
+                                                    name="blockType" value="blocked" id="blockBlocked">
+                                                <span class="label-text">ONLY websites on my Blocked Sites list</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="radio" class="radio radio-sm radio-primary" name="blockType"
+                                                    value="allExceptAllowed"
+                                                    id="blockAllExceptAllowed">
+                                                <span class="label-text">websites EXCEPT those on my Allowed Sites list</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                            <input type="radio" class="radio radio-sm radio-primary" name="blockType" value="all" id="blockAll">
+                                                <span class="label-text">ALL websites</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <h4>
+                                        What do you want to block?
+                                    </h4>
+                                    <ul class="list-none pl-2">
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input class="radio radio-sm radio-primary" type="radio" name="contentType" value="wholeSite" id="blockWholeSite">
+                                                <span class="label-text">The whole site</span>
+                                            </label>
+                                        </li>
+                                        <li data-hide-on-bypass>
+                                            <label class="label justify-start gap-3">
+                                                <input class="radio radio-sm radio-primary" type="radio" name="contentType" value="smartBomb" id="blockSmartBomb">
+                                                <span class="label-text">Just certain types of content (SmartBomb)</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <ul id="smartBombOptions" class="smartBombOptions hidden not-prose list-none ml-6" data-hide-on-bypass>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="checkbox" class="checkbox checkbox-xs checkbox-primary smartBombOption" name="multimedia" value="multimedia" id="blockMultimedia">
+                                                <span class="label-text"><b>Multimedia</b> (Flash games, video players, music players, etc)</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="checkbox" class="checkbox checkbox-xs checkbox-primary smartBombOption" name="forms" value="forms" id="blockForms" >
+                                                <span class="label-text"><b>Forms</b> (Forums, blog comments, Facebook messages, etc.)</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="checkbox" class="checkbox checkbox-xs checkbox-primary smartBombOption" name="logins" value="logins" id="blockLogins">
+                                                <span class="label-text"><b>Logins</b> (Blocks password fields so you can't log into sites requiring login)</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="checkbox" class="checkbox checkbox-xs checkbox-primary smartBombOption" name="images" value="images" id="blockImages">
+                                                <span class="label-text"><b>Images</b></span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <h4>
+                                        For how long?
+                                    </h4>
+                                    <div class="join">
+                                        <label class="input-group ml-8">
+                                            <input type="number" value="1" min="0" name="blockHours" class="input input-bordered join-item w-28">
+                                            <span class="join-item">hr</span>
+                                            <input type="number" value="0" min="0" max="59" name="blockMinutes" class="input input-bordered join-item w-28">
+                                            <span class="join-item">min</span>
+                                        </label>
+                                    </div>
+                                    <h4>
+                                        Starting when?
+                                    </h4>
+                                    <ul class="list-none pl-2">
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="radio" class="radio radio-primary radio-sm" name="startType" value="now" checked="checked"
+                                                id="startNow">
+                                                <span class="label-text">Right now</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="radio" class="radio radio-primary radio-sm" name="startType" value="whenMaxTimeAllowedExceeded"
+                                                id="startWhenMaxTimeAllowedExceeded">
+                                                <span class="label-text">When my Max Time Allowed has been exceeded</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="label justify-start gap-3">
+                                                <input type="radio" class="radio radio-primary radio-sm" name="startType" value="atScheduledTime"
+                                                id="startAtScheduledTime">
+                                                <span class="label-text">At a specific time</span>
+                                            </label>
+                                        </li>
+                                        <li id="nuclearOptionScheduledTime" class="atScheduledTimeOptions hidden">
+                                            <div class="join">
+                                                <select name="startHour" class="hour select select-bordered join-item">
+                                                    <option value="00">12</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                </select>
+                                                <select name="startMin" class="min select select-bordered join-item">
+                                                    <option value="00">00</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                    <option value="31">31</option>
+                                                    <option value="32">32</option>
+                                                    <option value="33">33</option>
+                                                    <option value="34">34</option>
+                                                    <option value="35">35</option>
+                                                    <option value="36">36</option>
+                                                    <option value="37">37</option>
+                                                    <option value="38">38</option>
+                                                    <option value="39">39</option>
+                                                    <option value="40">40</option>
+                                                    <option value="41">41</option>
+                                                    <option value="42">42</option>
+                                                    <option value="43">43</option>
+                                                    <option value="44">44</option>
+                                                    <option value="45">45</option>
+                                                    <option value="46">46</option>
+                                                    <option value="47">47</option>
+                                                    <option value="48">48</option>
+                                                    <option value="49">49</option>
+                                                    <option value="50">50</option>
+                                                    <option value="51">51</option>
+                                                    <option value="52">52</option>
+                                                    <option value="53">53</option>
+                                                    <option value="54">54</option>
+                                                    <option value="55">55</option>
+                                                    <option value="56">56</option>
+                                                    <option value="57">57</option>
+                                                    <option value="58">58</option>
+                                                    <option value="59">59</option>
+                                                </select>
+                                                <select name="startAmPm" class="ampm select select-bordered join-item">
+                                                    <option value="am">AM</option>
+                                                    <option value="pm">PM</option>
+                                                </select>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div id="nuclearOptionFrequency"
+                                        class="atScheduledTimeOptions whenMaxTimeAllowedExceededOptions hidden">
+                                        <h4>
+                                            How often?
+                                        </h4>
+                                        <ul class="list-none pl-2">
+                                            <li>
+                                                <label class="label justify-start gap-3">
+                                                    <input type="radio" class="radio radio-sm radio-primary" name="frequency" value="todayOnly" checked="checked" id="freqTodayOnly">
+                                                    <span class="label-text">Today only</span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="label justify-start gap-3">
+                                                    <input type="radio" class="radio radio-sm radio-primary" name="frequency" value="activeDays" id="freqActiveDays">
+                                                    <span class="label-text">Only on days checked in the </span>
+                                                Active Days tab</label>
+                                            </li>
+                                            <li>
+                                                <label class="label justify-start gap-3">
+                                                    <input type="radio" class="radio radio-sm radio-primary" name="frequency" value="everyWeekday" id="freqEveryWeekday">
+                                                    <span class="label-text">Every weekday</span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="label justify-start gap-3">
+                                                    <input type="radio" class="radio radio-sm radio-primary" name="frequency" value="everyDay" id="freqEveryDay">
+                                                    <span class="label-text">Every day (including weekends)</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="mb-0">
+                                        <input type="button" value="NUKE 'EM!" id="activateNuclearOptionButton" class="btn btn-error">
+                                    </p>
+                                </form>
+                            </fieldset>
+                            <p>
+                                <small class="disclaimer">"All websites" includes web-based email, Google, online banking,
+                                    local files (file:// urls) and other sites which you may not realize you need until it's
+                                    too late.</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden requireChallenge prose" id="requireChallenge" data-option></li>
+
+                        <li class="hidden customize prose" data-option>
+                            <h1>
+                                Customize
+                            </h1>
+                            <p id="customizeMsg" class="alert alert-error hidden"></p>
+                            <div>
+                                <h4>
+                                    Sync
+                                </h4>
+                                <p>
+                                    By default, StayFocusd will sync your Blocked Sites and Allowed Sites between all
+                                    your devices via Chrome Sync. Click the box below to turn this feature off.
+                                </p>
+                                <p>
+                                    <label class="label justify-start gap-3">
+                                        <input type="checkbox" class="checkbox checkbox-sm checkbox-primary" id="disableSync"
+                                            data-analytics-toggle="TOGGLE_SETTINGS_DISABLE_SYNC">
+                                        <span class="label-text">Disable Sync</span>
+                                    </label>
+                                </p>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4>
+                                    Popup
+                                </h4>
+                                <p>
+                                    <label class="label justify-start gap-3">
+                                        <input type="checkbox" class="checkbox checkbox-sm checkbox-primary" id="hideAllowSiteLink"
+                                            data-analytics-toggle="TOGGLE_SETTINGS_HIDE_ALLOW_SITE_LINK">
+                                        <span class="label-text">Hide all links in popup which let you allow sites (i.e. "Allow this entire site", "Allow custom url", etc.) </span>
+                                    </label>
+                                </p>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4>
+                                    Infobar
+                                </h4>
+                                <p>
+                                    The infobar slides down from the top of a webpage to display important messages.
+                                </p>
+                                <p>
+                                    <label class="label justify-start gap-3">
+                                        <input type="checkbox" class="checkbox checkbox-sm checkbox-primary" id="hideInfoBar"
+                                            data-analytics-toggle="TOGGLE_SETTINGS_HIDE_INFO_BAR">
+                                        <span class="label-text">Never show infobar</span>
+                                    </label>
+                                </p>
+                            </div>
+                            <hr />
+                            <div id="activityMonitorOptions"></div>
+                            <div>
+                                <h4>
+                                    StayFocusd update notices
+                                </h4>
+                                <p>
+                                    When StayFocusd updates, a NEW badge is displayed on the StayFocusd icon. Clicking
+                                    the icon pops open a new window with info about the latest update. This happens very
+                                    infrequently.
+                                </p>
+                                <p>
+                                    <label class="label justify-start gap-3">
+                                        <input type="checkbox" class="checkbox checkbox-sm checkbox-primary" id="disableUpdatePopup"
+                                            data-analytics-toggle="TOGGLE_SETTINGS_DISABLE_UPDATE_POPUP">
+                                        <span class="label-text">Never show StayFocusd update notices</span>
+                                    </label>
+                                </p>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4>
+                                    Notifications
+                                </h4>
+                                <p>
+                                    Set up to five times you want to be warned before time runs out or before the
+                                    Nuclear Option kicks in (both use the same settings). To disable notifications,
+                                    leave all fields blank.
+                                </p>
+                                <ul id="customNotifications" class="list-none pl-2">
+                                    <li>
+                                        <input type="text" name="value0" value="" class="input input-sm input-bordered w-16"/>
+                                        <select name="unit0" class="select select-sm select-bordered w-32">
+                                            <option value="min">minute(s)</option>
+                                            <option value="sec">second(s)</option>
+                                        </select>
+                                        &#160;remaining
+                                    </li>
+                                    <li>
+                                        <input type="text" name="value1" value="" class="input input-sm input-bordered w-16"/>
+                                        <select name="unit1" class="select select-sm select-bordered w-32">
+                                            <option value="min">minute(s)</option>
+                                            <option value="sec">second(s)</option>
+                                        </select>
+                                        &#160;remaining
+                                    </li>
+                                    <li>
+                                        <input type="text" name="value2" value="" class="input input-sm input-bordered w-16"/>
+                                        <select name="unit2" class="select select-sm select-bordered w-32">
+                                            <option value="min">minute(s)</option>
+                                            <option value="sec">second(s)</option>
+                                        </select>
+                                        &#160;remaining
+                                    </li>
+                                    <li>
+                                        <input type="text" name="value3" value="" class="input input-sm input-bordered w-16"/>
+                                        <select name="unit3" class="select select-sm select-bordered w-32">
+                                            <option value="min">minute(s)</option>
+                                            <option value="sec">second(s)</option>
+                                        </select>
+                                        &#160;remaining
+                                    </li>
+                                    <li>
+                                        <input type="text" name="value4" value="" class="input input-sm input-bordered w-16"/>
+                                        <select name="unit4" class="select select-sm select-bordered w-32">
+                                            <option value="min">minute(s)</option>
+                                            <option value="sec">second(s)</option>
+                                        </select>
+                                        &#160;remaining
+                                    </li>
+                                </ul>
+                                <p>
+                                    <input id="saveNotificationsButton" type="button" name="saveNotifications"
+                                        value="Save notifications" class="btn btn-primary btn-sm">
+                                </p>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4>
+                                    Redirect message
+                                </h4>
+                                <p>
+                                    When StayFocusd blocks a site, it redirects to stayfocusd.com with the message
+                                    "Shouldn't you be working?" You can replace that message with a custom message of
+                                    your own.
+                                </p>
+                                <p>
+                                    <input type="text" id="customStayFocusdMsg" class="input input-bordered md:w-[70%]" placeholder="Enter a custom message..." />
+                                </p>
+                                <p>
+                                    <input id="saveCustomMsgButton" type="button" name="saveCustomMsg"
+                                        value="Save message" class="btn btn-primary btn-sm">
+                                </p>
+                            </div>
+                            <hr />
+                            <div>
+                                <h4>
+                                    Data privacy
+                                </h4>
+                                <div class="form-control">
+                                    <label class="label justify-start gap-3">
+                                        <input type="checkbox" id="refuseUploadData"
+                                            class="checkbox checkbox-sm checkbox-primary"
+                                            data-analytics-toggle="TOGGLE_SETTINGS_OPT_OUT_COLLECTION_DATA">
+                                        <span class="label-text">Opt out of data collection</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="hidden importExport prose" data-option>
+                            <h1>
+                                Export Settings
+                            </h1>
+                            <p>
+                                You can export your settings as a backup, or to transfer them to another computer.
+                                You'll be prompted to save a .json file. Just click Save, and you're done.
+                            </p>
+
+                            <form id="exportSettingsForm">
+                                <input type="button" value="Export Settings" id="exportSettings"
+                                    data-analytics-click="CLICK_SETTINGS_EXPORT"
+                                    class="btn btn-sm btn-primary"
+                                />
+                            </form>
+
+                            <p id="importSettingsMsg" class="alert alert-error hidden"></p>
+
+                            <hr />
+
+                            <h1>
+                                Import Settings
+                            </h1>
+                            <p>
+                                If you previously exported your settings, click the Choose File button, locate the
+                                .json file, then click Import Settings.
+                            </p>
+                            <p>
+                                <input type="file" id="settingsFile" class="file-input file-input-bordered w-full" name="settings" size="40"/>
+                            </p>
+                            <p>
+                                <input type="button" value="Import Settings" id="importSettings"
+                                    data-analytics-click="CLICK_SETTINGS_IMPORT" class="btn btn-sm btn-primary"/>
+                            </p>
+                            <div id="importedSettings" class="hidden">
+                                <h4>Importing settings ...</h4>
+                                <div id="importResults"></div>
+                            </div>
+                            <p>
+                                <small class="disclaimer">IMPORTANT: Importing settings will <b>overwrite</b> any
+                                    existing settings. There is no way to undo this.</small>
+                            </p>
+                        </li>
+
+                        <li class="hidden rescueMe prose" data-option>
+                            <ul class="list-none">
+                                <li>
+                                    <h1>
+                                        Rescue Me
+                                    </h1>
+                                    <p>
+                                        You'll need a special unlock code in order to access any of the links below.
+                                        If you don't have one, please email <a
+                                            href="mailto:support@stayfocusd.com?subject=[Rescue Me] I need an unlock code"
+                                            target="_blank">support@stayfocusd.com</a> to request one.
+                                    </p>
+                                    <ul class="rescueLinks">
+                                        <li>
+                                            <a href="#rescueMeTab" id="killNuclearOption">Kill Nuclear Option</a>
+                                        </li>
+                                        <li>
+                                            <a href="#rescueMeTab" id="killStalkerOption">Kill Stalker Option</a>
+                                        </li>
+                                        <li>
+                                            <a href="#rescueMeTab" id="killChallenge">Kill Challenge</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right side spacing/coloring -->
+                <div class="flex-1"></div>
+            </div>
+
+        </div>
+
+        <div id="challengeContainer" class="hidden md:w-[70%] mx-auto"></div>
+    </body>
+</html>

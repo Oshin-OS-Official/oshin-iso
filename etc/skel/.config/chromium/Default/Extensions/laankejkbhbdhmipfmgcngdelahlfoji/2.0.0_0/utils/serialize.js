@@ -1,0 +1,1 @@
+define([],()=>function serialize(object){return null==object?object:object instanceof Error?{errorClass:object.name,errorMessage:object.message}:"function"==typeof object?"[Function]":Array.isArray(object)?object.map(serialize):"object"==typeof object?Object.entries(object).reduce((serialized,[key,value])=>(serialized[key]=serialize(value),serialized),{}):object});

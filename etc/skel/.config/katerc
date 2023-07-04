@@ -7,9 +7,6 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
-[KFileDialog Settings]
-detailViewIconSize=16
-
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
@@ -124,9 +121,12 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[KTextEditor::Search]
+Replace History=Oshin OS,https://oshinos.org/,oshinrepo,cposhinrepo,oshinreleng
+Search History=Ezarcher Linux,https://sourceforge.net/projects/ezarch/,ezrepo,cpezrepo,ezreleng
+
 [MainWindow]
-1920x1080 screen: Height=783
-1920x1080 screen: Width=1228
+1920x1080 screen: Window-Maximized=true
 
 [filetree]
 editShade=34,85,115

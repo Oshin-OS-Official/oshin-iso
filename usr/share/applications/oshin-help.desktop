@@ -1,4 +1,4 @@
 [Desktop Entry]
 Name=Oshin Helpline
-Exec=python3 /usr/local/bin/oshin-help/main.py
+Exec=python3 /usr/local/bin/oshin-xhelp/main.py
 Icon=oshin

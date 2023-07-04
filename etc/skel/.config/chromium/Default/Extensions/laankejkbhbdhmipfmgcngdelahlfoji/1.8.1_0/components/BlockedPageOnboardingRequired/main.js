@@ -1,1 +1,0 @@
-requirejs.config({baseUrl:"/",waitSeconds:60}),requirejs(["core/Logger","core/CoreAPI","core/vendor/jquery.min","components/BlockedPageOnboardingRequired/Controller"],function(Logger,API,$,Controller){Promise.all([API.Settings.initAsync(),API.RemoteConfig.init(),API.Analytics.init()]).then(()=>{var controller=new Controller;$(document).ready(function(){controller.init()})})});

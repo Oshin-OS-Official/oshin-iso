@@ -1,3 +1,17 @@
-2023/04/13-12:53:51.837 ce0 Reusing MANIFEST /home/final/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2023/04/13-12:53:51.838 ce0 Recovering log #19
-2023/04/13-12:53:51.840 ce0 Reusing old log /home/final/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000019.log 
+2023/06/29-20:40:42.445 43ad Creating DB /home/oshin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2023/06/29-20:40:42.453 43ad Reusing MANIFEST /home/oshin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/06/29-20:40:44.509 43b6 Level-0 table #5: started
+2023/06/29-20:40:44.550 43b6 Level-0 table #5: 1776179 bytes OK
+2023/06/29-20:40:44.555 43b6 Delete type=0 #3
+2023/06/29-20:41:04.631 43ad Level-0 table #7: started
+2023/06/29-20:41:04.655 43ad Level-0 table #7: 1546688 bytes OK
+2023/06/29-20:41:04.659 43ad Delete type=0 #4
+2023/06/29-20:41:15.045 43ad Level-0 table #9: started
+2023/06/29-20:41:15.073 43ad Level-0 table #9: 1834160 bytes OK
+2023/06/29-20:41:15.077 43ad Delete type=0 #6
+2023/06/29-20:41:26.571 43ad Level-0 table #11: started
+2023/06/29-20:41:26.596 43ad Level-0 table #11: 1686043 bytes OK
+2023/06/29-20:41:26.600 43ad Delete type=0 #8
+2023/06/29-20:43:37.688 43ad Level-0 table #13: started
+2023/06/29-20:43:37.734 43ad Level-0 table #13: 2914540 bytes OK
+2023/06/29-20:43:37.738 43ad Delete type=0 #10

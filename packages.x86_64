@@ -158,6 +158,8 @@ hunspell-en_us
 hwdata
 hwdetect
 hwinfo
+inxi
+keepassxc
 libburn
 libisofs
 libisoburn
@@ -248,7 +250,6 @@ wireplumber
 # pulseaudio-bluetooth
 # pulseaudio-equalizer
 # pulseaudio-jack
-#simplescreenrecorder
 sox
 transcode
 smplayer
@@ -259,8 +260,10 @@ yt-dlp
 
 # XORG
 mesa
+xclip
 xorg
 xorg-server
+xorg-server-xvfb
 xorg-apps
 xorg-drivers
 xorg-xkill
@@ -273,7 +276,6 @@ curl
 dnsutils
 ethtool
 filezilla
-firefox
 firewalld
 gnome-nettool
 iptables-nft
@@ -319,7 +321,6 @@ gsfonts
 gutenprint
 python-pillow
 python-pip
-python-pyqt5
 python-reportlab
 simple-scan
 system-config-printer
@@ -341,6 +342,8 @@ k3b
 kcalc
 kinit
 konsole
+kwallet
+kwalletmanager
 kwin
 kwrite
 meld
@@ -353,6 +356,7 @@ pavucontrol-qt
 plasma
 print-manager
 qbittorrent
+spectacle
 sweeper
 
 # Display Manager
@@ -396,16 +400,15 @@ mkinitcpio-openswap
 # AUR
 trizen
 
-# Oshin OS Packages
-papirus-icon-theme
-catppuccin-kde-theme
-sddm-theme-astronaut
-sddm-sugar-candy-git
+
+# Oshin packages
+otf-opendyslexic-nerd
 oshin-welcome
-oshin-grub
-oshin-screen-monitor
-plymouth-git
 activitywatch-bin
+catppuccin-kde-theme
 hblock
-kdeplasma-applets-fokus
+oshin-grub-theme
+chromium
+oshin-screen-monitor
+sddm-theme-astronaut
 pyqt5

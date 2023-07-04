@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "img/icon19.png",
+         "38": "img/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Advanced Profanity Filter"
+   },
+   "author": "FrostCo",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "webFilter.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Advanced Profanity Filter helps to clean up bad language on the websites you and your family visit.",
+   "host_permissions": [ "https://*.crunchyroll.com/" ],
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqbbkmZsuumNTWp/pOCWe1i/OT8XVU4yvi0eqmdullVSxnbqw1TrJATHpR8h1ZZxDwHrz9H+rexPB8pHY5HjqlqbH/9xdfo0mLY1++oHIm+iVK1RlVb0OG0IzUqqUXHN+m949bv51t1FuMX+qrdGFNTmvESFBrdYq55JlhOhJwkXwzBTWC3aVPYa3ewOIg0fsHhV4mieTGjTlW1gV5UHLtKjaK15NrvOvvCpitGMX8ZpxnpszkfupfAWPMcgQWjREtPpq3Fd6QZD3CzXIyZ7oungUoQWspoc6nbjzcnG23/znMixb7vLFC+axOx5FRfSHBCUwntXaKde5L3be62idYwIDAQAB",
+   "manifest_version": 3,
+   "name": "Advanced Profanity Filter",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "optionPage.html"
+   },
+   "permissions": [ "contextMenus", "notifications", "scripting", "storage", "tabs" ],
+   "short_name": "APF",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "audio/*.mp3" ]
+   } ]
+}

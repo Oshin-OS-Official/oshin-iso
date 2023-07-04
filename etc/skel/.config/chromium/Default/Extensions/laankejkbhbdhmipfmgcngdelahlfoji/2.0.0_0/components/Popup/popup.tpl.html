@@ -1,0 +1,197 @@
+<!-- Logo & Close -->
+<header class="flex justify-between items-center gap-4 px-4 py-2 h-12">
+  <img
+    class="h-8"
+    src="/common/img/logo.svg"
+    title="StayFocusd"
+    alt="StayFocusd"
+  />
+  <a
+    class="close uppercase text-xs link link-primary link-hover font-medium"
+    href="#"
+    data-i18n="close"
+    >Close</a
+  >
+</header>
+
+<hr class="h-px border-neutral-focus p-0 m-0" />
+
+<section class="flex gap-4 px-4 py-2">
+  <!-- Current website -->
+  <div class="flex-1 flex flex-col">
+    <p
+      class="text-sm opacity-50"
+      data-i18n="currentlyOn"
+    >
+      You are currently on:
+    </p>
+    <p class="text-lg font-bold truncate">{{baseDomain}}</p>
+    <p
+      id="status-msg"
+      class="mt-2 text-sm font-medium hidden"
+    ></p>
+    <a
+      id="block-entire"
+      class="mt-2 link link-secondary link-hover text-sm"
+      href="#"
+      title="Block all pages on this site"
+      data-analytics-click="CLICK_POPUP_BLOCK_ENTIRE_SITE"
+    >
+      <strong data-i18n="block">Block</strong>
+      <span data-i18n="thisEntireSite">this entire site</span>
+    </a>
+    <a
+      id="show-advanced-options"
+      class="mt-1 link link-hover text-sm"
+      href="#"
+      data-i18n="advancedOptions"
+    >
+      Advanced options
+    </a>
+  </div>
+
+  <!-- Timer -->
+  <div
+    class="bg-neutral text-neutral-content rounded self-center px-3 py-2 text-right"
+  >
+    <p
+      id="timer-label"
+      data-i18n="timeRemaining"
+      class="uppercase text-xs opacity-50 whitespace-nowrap"
+    >
+      Time Remaining
+    </p>
+    <p
+      id="display-timer"
+      data-i18n="loading"
+      class="text-2xl text-primary font-bold"
+    >
+      Loading...
+    </p>
+  </div>
+</section>
+
+<!-- Advanced -->
+<section
+  id="advanced-options"
+  class="px-4 pb-4 space-y-1"
+  style="display: none"
+>
+  <a
+    id="allow-entire"
+    class="block link link-hover link-accent text-sm"
+    href="#"
+    data-allow
+  >
+    <b data-i18n="allow">Allow</b>
+    <span data-i18n="thisEntireSite">this entire site</span>
+  </a>
+  <a
+    id="only-allow"
+    class="block link link-hover link-accent text-sm"
+    style="display: none"
+    href="#"
+    data-allow
+  >
+    <span data-i18n="onlyAllowPagesOn">Only allow pages on</span>
+    <strong>{{fullDomain}}</strong>
+  </a>
+  <a
+    id="only-block"
+    class="block link link-hover link-secondary text-sm"
+    style="display: none"
+    href="#"
+  >
+    <span data-i18n="onlyBlockPagesOn">Only block pages on</span>
+    <strong class="full-domain">{{fullDomain}}</strong>
+  </a>
+
+  <div class="bg-neutral px-4 py-3 rounded">
+    <label class="form-control">
+      <p>
+        <span
+          class="text-sm"
+          data-i18n="enterCustomURL"
+        >
+          Enter a custom url
+        </span>
+      </p>
+      <input
+        id="custom-url"
+        class="input input-bordered input-sm my-1"
+        type="text"
+        value=""
+      />
+    </label>
+    <div class="flex gap-2">
+      <a
+        id="block-custom"
+        class="link link-hover link-secondary text-sm"
+        href="#"
+        data-i18n="blockCustomURL"
+      >
+        Block custom url
+      </a>
+      <p
+        class="text-neutral-content text-opacity-50"
+        data-allow
+      >
+        &bull;
+      </p>
+      <a
+        id="allow-custom"
+        class="link link-hover link-accent text-sm"
+        href="#"
+        data-i18n="allowCustomURL"
+        data-allow
+      >
+        Allow custom url
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr class="h-px border-neutral-focus p-0 m-0" />
+
+<footer class="flex items-center py-2 px-4 gap-1 justify-between">
+  <a
+    id="show-nuclear-option"
+    class="link link-hover text-sm flex items-center gap-1"
+    href="#"
+  >
+    <img
+      class="inline w-4 h-4 shrink-0"
+      src="/common/img/icon-nuclear-16.png"
+      alt="Nuclear Option"
+      id="nuclearOptionIcon"
+    />
+    <span data-i18n="nuclearOption">Nuclear Option</span>
+  </a>
+  <p class="text-neutral-focus">&bull;</p>
+  <a
+    id="show-options"
+    class="link link-hover text-sm"
+    href="#"
+    data-i18n="settings"
+  >
+    Settings
+  </a>
+  <p class="text-neutral-focus">&bull;</p>
+  <a
+    id="show-help"
+    class="link link-hover text-sm"
+    href="#"
+    data-i18n="helpFAQ"
+  >
+    Help/FAQ
+  </a>
+  <p class="text-neutral-focus">&bull;</p>
+  <a
+    class="link link-hover link-accent text-sm"
+    href="https://discord.com/invite/33kpwusY6Y"
+    target="_blank"
+    data-i18n="joinDiscord"
+  >
+    Join Discord
+  </a>
+</footer>
