@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Oshin Sahayak
+Comment=A cyberbullying reporting tool
+Categories=System;
+Keywords=System;
+Exec=python3 /usr/local/bin/oshin-xhelp/main.py
+Icon=/usr/local/bin/oshin/icons/oshin-official-icon.png
+Path=/usr/local/bin/oshin-xhelp
+Terminal=false
+StartupNotify=false
+Name=Oshin Sahayak

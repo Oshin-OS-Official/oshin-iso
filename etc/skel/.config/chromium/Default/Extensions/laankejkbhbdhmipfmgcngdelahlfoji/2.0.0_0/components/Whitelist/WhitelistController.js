@@ -1,1 +1,0 @@
-define(["components/List/ListController"],ListController=>class extends ListController{});

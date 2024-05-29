@@ -1,0 +1,11 @@
+2024/05/18-23:22:49.139 7ec Creating DB /home/oshin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2024/05/18-23:22:49.556 7ec Reusing MANIFEST /home/oshin/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/05/18-23:22:57.388 806 Level-0 table #5: started
+2024/05/18-23:22:57.528 806 Level-0 table #5: 4112682 bytes OK
+2024/05/18-23:22:57.764 806 Delete type=0 #3
+2024/05/18-23:23:09.408 7ed Level-0 table #7: started
+2024/05/18-23:23:09.478 7ed Level-0 table #7: 4723524 bytes OK
+2024/05/18-23:23:09.679 7ed Delete type=0 #4
+2024/05/18-23:24:18.708 7ec Level-0 table #9: started
+2024/05/18-23:24:18.933 7ec Level-0 table #9: 7984559 bytes OK
+2024/05/18-23:24:19.124 7ec Delete type=0 #6

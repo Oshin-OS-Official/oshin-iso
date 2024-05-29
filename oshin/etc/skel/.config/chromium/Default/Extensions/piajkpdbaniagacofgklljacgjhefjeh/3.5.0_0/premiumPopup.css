@@ -1,0 +1,12 @@
+/* #region HTML Elements */
+body {
+  /* Needed for Safari */
+  color: var(--text-color);
+}
+
+select {
+  /* Needed for Safari */
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* #endregion */

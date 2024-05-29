@@ -1,1 +1,0 @@
-define(["./UsageSummaryModel","./UsageSummaryView"],(Model,View)=>class{async init(){await API.Settings.initAsync();var model=new Model;await model.loadData(),new View(model)}});

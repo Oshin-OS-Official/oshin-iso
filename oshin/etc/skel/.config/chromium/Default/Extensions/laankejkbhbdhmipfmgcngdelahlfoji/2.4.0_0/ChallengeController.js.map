@@ -1,0 +1,1 @@
+{"version":3,"file":"ChallengeController.js","sources":["../src/components/Challenge/ChallengeController.js"],"sourcesContent":["export default class ChallengeController {\n  view = null\n  model = null\n}\n"],"names":["ChallengeController","__publicField"],"mappings":"wKAAe,MAAMA,CAAoB,CAA1B,cACbC,EAAA,YAAO,MACPA,EAAA,aAAQ,MACV"}

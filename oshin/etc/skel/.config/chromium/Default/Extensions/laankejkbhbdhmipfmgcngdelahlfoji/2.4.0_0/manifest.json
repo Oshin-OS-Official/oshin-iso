@@ -1,0 +1,44 @@
+{
+   "action": {
+      "default_popup": "components/Popup/popup.html"
+   },
+   "background": {
+      "service_worker": "core/background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "core/content.js", "core/prompt-collector.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "core/ad-finder.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   }, {
+      "js": [ "core/onboarding-redirect.js" ],
+      "matches": [ "https://www.stayfocusd.com/extension-get-started" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_manifestDescription__",
+   "host_permissions": [ "https://stayfocusd.dev/", "https://*.stayfocusd.com/", "https://www.googleapis.com/" ],
+   "icons": {
+      "128": "common/img/icon-128.png",
+      "16": "common/img/icon-16.png",
+      "24": "common/img/icon-24.png",
+      "32": "common/img/icon-32.png",
+      "48": "common/img/icon-48.png",
+      "96": "common/img/icon-96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZGExPKdmpnsG6ACNioLVAFgQnEl11tYcSeD3qLnKQ51DcR8B5uJJp1uRl+BhBL/NrHtpxBQ35xKfseM2HIFeIXD9gP+o2XlcL4kHkdt2Meo9e3CdLvRJL47fhnSgD1OrU5F+NO9Rpi3h/Cka1t9oHpt3kGWveWuMHskdLUW11QIDAQAB",
+   "manifest_version": 3,
+   "name": "StayFocusd - Block Distracting Websites",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "notifications", "storage", "alarms", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "common/*", "common/img/*", "common/css/content.css", "components/ActivityMonitor/ActivityMonitorController.js", "components/ActivityMonitor/ActivityMonitorModel.js", "components/ActivityMonitor/views/overlay/ActivityMonitorOverlayView.js", "components/ActivityMonitor/views/overlay/overlay.tpl", "components/InfoBar/InfoBarController.js", "components/InfoBar/InfoBarView.js", "components/InfoBar/InfoBarModel.js", "components/InfoBar/infoBar.tpl", "components/Onboarding*", "components/BlockedPageOnboarding*", "components/Onboarding/onboarding.html?*", "components/UsageSummary*", "core/vendor/*", "core/main.js", "core/API.js", "core/Amplitude.js", "core/AmplitudeAPI.js", "core/Bugsnag.js", "core/ChromeAPI.js", "core/Component.js", "core/ComponentFactory.js", "core/CoreAPI.js", "core/DateUtils.js", "core/DomainParser.js", "core/GeneralUtils.js", "core/Logger.js", "core/Message.js", "core/Notification.js", "core/NuclearOption.js", "core/ObjectUtils.js", "core/Requirements.js", "core/RemoteConfig.js", "core/ReferrerMonitor.js", "core/SmartBomb.js", "core/StayFocusd.js", "core/Storage.js", "core/Settings.js", "core/ScheduleJobs.js", "core/WebUsage.js", "core/Time.js", "core/Prompt.js", "core/AppConsts.js", "core/ad-finder.js", "core/IncrementalRollout.js", "utils/*" ]
+   } ]
+}
