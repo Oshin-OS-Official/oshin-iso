@@ -462,3 +462,6 @@ activitywatch-bin
 chromium
 pyqt5
 libreoffice-fresh
+
+# Tests
+catppuccin-kde-theme
