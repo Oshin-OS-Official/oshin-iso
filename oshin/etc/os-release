@@ -7,6 +7,6 @@ HOME_URL="https://oshinos.org"
 DOCUMENTATION_URL="https://oshinos.org"
 SUPPORT_URL="https://oshinos.org"
 BUG_REPORT_URL="https://oshinos.org"
-LOGO=oshin
+LOGO=/usr/local/bin/oshin/icons/oshin-official-icon.png
 IMAGE_ID=oshinos-kde
 IMAGE_VERSION=240519

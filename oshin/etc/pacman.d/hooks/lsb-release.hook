@@ -1,0 +1,12 @@
+# Oshin Neofetch Config Hook
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = lsb-release
+
+[Action]
+Description = Copy /etc/oshin-release to /etc/lsb-release
+When = PostTransaction
+Exec = /bin/sh -c "cp /etc/oshin-release /etc/lsb-release"

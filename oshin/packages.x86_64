@@ -338,7 +338,6 @@ whois
 ttf-dejavu
 ttf-liberation
 ttf-bitstream-vera
-ttf-ubuntu-font-family
 cantarell-fonts
 ttf-croscore
 ttf-carlito
@@ -346,7 +345,6 @@ ttf-caladea
 noto-fonts
 opendesktop-fonts
 ttf-opensans
-freetype2
 
 # Printing Support
 cups
@@ -462,6 +460,13 @@ activitywatch-bin
 chromium
 pyqt5
 libreoffice-fresh
+customtkinter
+python-tkcalendar
+python-ttkthemes
+tk
+neofetch
+otf-opendyslexic-nerd
+signal-desktop-beta-bin
 
-# Tests
+# Theme
 catppuccin-kde-theme
